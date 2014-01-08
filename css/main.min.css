@@ -75,7 +75,7 @@ a:hover,a:focus {
 
 p,ol {
 	margin:0 0 1em;
-	text-align:justify;
+	/* text-align:justify; */
 	line-height: 27px;
 }
 
@@ -104,7 +104,7 @@ h1 {
 #container-main {
 	width: 100%;
 	max-width: 800px; 
-	margin: 0 auto; 
+	margin: 3em auto; 
 	padding: 20px; 
 	border: 1px solid #CCCCCC;
 	background: #FFF;
