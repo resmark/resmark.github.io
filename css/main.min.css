@@ -33,10 +33,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	padding:0 1.5em;
 }
 
-.top {
-	text-align: center;
-}
-
 .row .row {
 	margin:0 -1.5em;
 }
@@ -142,6 +138,9 @@ ol li {
 	margin-bottom:1em;
 }
 
+.smallText {
+	font-size: 90%;
+}
 /* Form */
 input,textarea,select {
 	border:solid 1px #CCC;
@@ -176,14 +175,35 @@ form .element .chkbox {
 	display:inline;
 }
 
+select {
+	background: #F8F8F8 url(//www.resmarksystems.com/clients/images/v4/arrow-down.png) no-repeat scroll center right;
+	color: #333;
+	display: inline-block;
+	height: 44px;
+	border: solid 1px #CCC;
+	padding: 2px 10px;
+	outline: 0;
+	font-size: 14px;
+	text-decoration: none;
+	white-space: nowrap;
+	word-wrap: normal;
+	line-height: normal;
+	vertical-align: middle;
+	cursor: pointer;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+	-webkit-appearance: listbox;
+	width: 10.5em;
+
+}
 #help {
 	background:#F5F5F5;
 	border:1px solid rgba(0,0,0,0.1);
 	text-align: left;
 	padding:20px;
-	margin-top: 1.8em 1em 0 0;
+	margin: 1.8em 1em 0 0;
 	float:right;
-	width:40%;
+	width:33%;
 	display:none;
 	border-radius:3px;
 	font-size: 90%;
@@ -194,6 +214,10 @@ div.help-title {
 	color:#F7941E;
 	border-bottom:1px dotted #CCC;
 	margin-bottom:.5em;
+}
+
+.addAnother {
+	margin-bottom: 1em;
 }
 
 /* Header Tags */
@@ -248,7 +272,7 @@ header {
 	color:#333;
 	text-align:center;
 	width: 100%;
-	max-width: 250px;
+	max-width: 210px;
 	text-shadow:0 1px 1px rgba(255,255,255,0.75);
 	vertical-align:middle;
 	cursor:pointer;
