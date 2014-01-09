@@ -181,7 +181,7 @@ form .element .chkbox {
 	border:1px solid rgba(0,0,0,0.1);
 	text-align: left;
 	padding:20px;
-	margin-top: 1.8em;
+	margin-top: 1.8em 1em 0 0;
 	float:right;
 	width:40%;
 	display:none;
