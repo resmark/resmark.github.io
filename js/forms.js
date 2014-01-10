@@ -30,6 +30,20 @@ $(window).scroll(function(){
         }    
 });
 
+/* Acccordion */
+
+$(document).ready(function () {
+  $('#acc > li > a').click(function(){
+    if ($(this).attr('class') != 'active'){
+      $('#acc li ul').slideUp();
+      $(this).next().slideToggle();
+      $('#acc li a').removeClass('active');
+      $(this).addClass('active');
+    }
+  });
+});
+
+
 /* Help Hover on Input */
 	var visible = 0;
 	var firstNameText = "<div class='help-title'><i class='fa fa-question-circle'> Help</i></div><p>Enter your first name as it will appear on emails and reservation history. Alternatively, you may login with an outside account and we'll fill in this information for you.</p>";
