@@ -39,7 +39,6 @@ $('#acc > li > a').click(function(){
       $(this).addClass('active');
     }
   });
-});
 
 
 
@@ -111,5 +110,4 @@ var index = $("a.faq-question").index(this)+1;
 	});
       
     
-/*End All */   
-});
+/*End All */
