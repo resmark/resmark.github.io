@@ -31,31 +31,14 @@ $(window).scroll(function(){
 });
 
 /* Acccordion */
-$('#acc > li > a').click(function(){
-    if ($(this).attr('class') != 'active'){
-      $('#acc li ul').slideUp();
-      $(this).next().slideToggle();
-      $('#acc li a').removeClass('active');
-      $(this).addClass('active');
-    }
-  });
-});
 
-
-
-/* Slide Down */
- $(".faq-answer").css("display", "none");
-    $("a.faq-question").click(function (e) {
-        e.preventDefault();
-        var href = $(this).attr('href');
-var index = $("a.faq-question").index(this)+1;
-   $(this).next().html('').slideUp().load(href + ' .answer', function () {
-                $(".faq-answer").slideUp()
-            $(this).next().slideDown();
-         });
-    });
-});
-
+ $('.slidingDiv').hide();
+ $(".show_hide").addClass("plus").show();
+ $('.show_hide').click( function() {
+		$(this).next().slideToggle(this);
+		$(this).addClass("minus");
+    $(this).removeClass("plus");
+	});
 
 /* Help Hover on Input */
 	var visible = 0;

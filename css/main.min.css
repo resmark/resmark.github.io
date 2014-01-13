@@ -404,71 +404,37 @@ header {
 }
 
 /* Accordion */
-.tab {
-	padding:1em 2em 1em 0;
-	margin:0;
-	position:relative;
-	cursor:pointer;
-	outline:0;
 
+.socialAccount {
+	width: 100%
 }
 
-.tab:after {
-	content: url('/img/icons/icon-plus.png');
-	position:absolute;
-	top:0;
-	right:0;
-	display:block;
-	font-size:1.5em;
-	padding:.5em;
-	
+.socialAccount:first-child {
+	margin-top: .5em;
 }
 
-.msg-support.tab:after {
-	content: none;
-	}
-
-.tab.active {
-/*
-	background:#F4802B;
-	color:#FFF;
-	padding:1em;
-*/
+.slidingDiv label {
+	width: 120px;
+	text-align: right;
+	padding-right: 5px;
 }
 
-.tab.active:after {
-	font-size: 10px;
-	content: url('/img/icons/icon-minus.png');
-	margin: 10px;
+.slidingDiv label, .socialAccount {
+	display: inline-block;
 }
 
-.panel {
-	overflow:hidden;
+.plus:before, .minus:before {
+	font-family:'FontAwesome';
+  color: #3287D3;
+  padding-right: 5px;
 }
 
-.js .panel {
-	max-height:0;
-	-webkit-transition:max-height .3s ease-out;
-	-moz-transition:max-height .3s ease-out;
-	-ms-transition:max-height .3s ease-out;
-	-o-transition:max-height .3s ease-out;
-	transition:max-height .3s ease-out;
-	margin:0;
-	
+.plus:before {
+  content:"\f055";
 }
-
-.js .panel.active {
-	max-height:50em;
-	background: #f5f5f5;
-	padding: 30px;
+.minus:before {
+  content:"\f056";
 }
-
-.panel p:last-child {
-	margin:0;
-}
-
-
-
 
 
 /*  Buttons */
