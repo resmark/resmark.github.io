@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" href='/css/main.min.css'>
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="/js/jquery.jsonp-2.4.0.min.js"></script>
 
 </head>
   <body>
@@ -30,12 +31,12 @@
 						
 					  <form action="" method="POST" id="form-contact">
 							 <!-- Help Menu -->
-							<div id="help" class="content"></div>	
-							<div class="element help"><label>First Name:</label><input type="text" placeholder="Enter your first name" name="firstName" id="firstName"></div>
-							<div class="element help"><label>Last Name:</label><input type="text" placeholder="Enter your last name" name="lastName" id="lastName"></div>
-							<div class="element help"><label>Email:</label><input type="text" placeholder="Enter your email address"name="email" id="email"></div>            
+                          <div id="help" class="content"><div class='help-title'><i class='fa fa-question-circle'> Help</i></div><div id="helpContent"></div></div>
+							<div class="element help"><label>First Name:</label><input type="text" placeholder="Enter your first name" name="firstName" id="firstName" id-help="help-10001"></div>
+							<div class="element help"><label>Last Name:</label><input type="text" placeholder="Enter your last name" name="lastName" id="lastName" id-help="help-10002"></div>
+							<div class="element help"><label>Email:</label><input type="text" placeholder="Enter your email address"name="email" id="email" id-help="help-10003"></div>
 							<div class="element help"><label id="password">Password:</label>
-							<input type="password" id="txtPassword"  placeholder="Create a password"/>
+							<input type="password" id="txtPassword"  placeholder="Create a password" id-help="help-10004"/>
 							<input type="text" id="txthdnPassword" style='display:none;' />
 							<div>
 							<input type="checkbox" id="chkShow" class="chkbox"/>&nbsp;Show Password 
@@ -45,9 +46,16 @@
 				</div>
 		
 
+<<<<<<< HEAD
+
 		
 <script src="/js/forms.js" type="text/javascript"></script>
-
+=======
+>>>>>>> 0fb6889a6baac635c83c1e30e4d6587569697644
+<script>
+    var $helpUrl = 'https://df0v29bgpqxgj.cloudfront.net/help/en';
+</script>
+<script src="/js/forms.js"></script>
 
 </div>
 </body>

@@ -28,7 +28,6 @@ $(window).scroll(function(){
         } else {
             $('#help').css('position','inherit');
         }    
-});
 
 /* Acccordion */
 
