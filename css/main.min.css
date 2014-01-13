@@ -376,7 +376,7 @@ h1 {
 /*Layout */
 #container-main {
 	width:100%;
-	max-width:950px;
+	max-width:990px;
 	height:auto;
 	margin:0 auto;
 	padding:20px;
@@ -401,6 +401,18 @@ header {
 	max-width:290px;
 	height:45px;
 	background:transparent url(/img/logo.png) no-repeat 0 50%;
+}
+
+#logout {
+	float: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 85%;
+}
+
+header a:link, #logout a:active{
+	color: #FFF;
+	text-decoration: none;
 }
 
 /* Accordion */
@@ -439,6 +451,7 @@ header {
 .agree {
 	margin: 1em 0;
 }
+
 
 /*Breadcrumbs */
 
