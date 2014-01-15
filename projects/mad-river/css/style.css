@@ -31,7 +31,8 @@ body {
 
 a {
   color: gray;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 12px; }
 
 a:hover, a:focus {
   color: #222222;
