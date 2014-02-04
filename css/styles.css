@@ -103,7 +103,7 @@ img,a img {
 }
 
 body {
-	background: #FCFCFC url(../images/bg.jpg) repeat;
+	background: #FCFCFC url(/img/bg.jpg) repeat;
 	color:#3a3a3a;
 	font:normal 100%/1.4 "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-style:normal;
