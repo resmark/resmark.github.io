@@ -1,0 +1,114 @@
+
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Resmark Systems">
+<link rel="alternate" media="only screen and (max-width: 769px)" href="" />
+<link rel="alternate" media="handheld" href="" />
+<link rel="apple-touch-icon" href="/img/icons/icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/icon.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/icon@2x.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/icon@2x.png" />
+
+<!-- Styles -->
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/semantic.css">
+<link rel="stylesheet" href="/css/animations.css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/modernizer.min.js"></script>
+<script type="text/javascript" src="/js/selectivizr-min.js"></script>
+<script type="text/javascript" src="/js/respond.min.js"></script>
+
+<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<header>
+
+<section class="center">
+<div id="logo"></div>
+</section>    
+
+</header>
+
+<div id="wrapper">
+<section class="center">
+
+    <div id="menu">
+        <nav>
+             <h2>Setup</h2>
+
+            <ul>
+                <li><a href="#"></i>Divisions</a>
+
+                </li>
+                <li><a href="#"><i</i>Users</a>
+
+                </li>
+                <li><a href="#"><i></i>Payment Gateway</a>
+
+      
+                </li>
+                <li><a href="#">Payment Locations</a>
+
+                </li>
+                <li><a href="#">Product Setup</a>
+               
+               <h2>Products</h2>
+                    <ul>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Options</a></li>
+                        <li><a href="#">Discounts</a></li>
+                        <li><a href="#">Group Discounts</a></li>
+                        <li><a href="#">Taxes</a></li>
+                        <li><a href="#">Pickup Locations</a></li>
+                        <li><a href="#">Create Inventory</a></li>
+                        <li><a href="#">Edit Items</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</section>
+<!-- End wrapper -->
+</div>
+<footer>
+<div class="clearfix">
+	<ul id="icons-social">
+		<li class="fa fa-facebook"></li>
+		<li class="fa fa-google-plus"></li>
+		<li class="fa fa-linkedin"></li>
+		<li class="fa fa-pinterest"></li>
+		<li class="fa fa-twitter"></li>
+		<li class="fa fa-youtube"></li>
+		<li class="fa fa-vimeo-square"></li>
+	</ul>
+</div>
+</footer>
+
+<!- Javascript -->
+<script type="text/javascript" src="/js/jquery.multilevelpushmenu.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#menu').multilevelpushmenu({
+        onItemClick: function () {
+            var e = arguments[0];
+            if ($(e.target).prop('tagName').toLowerCase() == 'input') {
+                $(e.target).focus();
+                $(e.target).val('focused');
+                $(e.target).unbind('blur');
+                $(e.target).blur(function () {
+                    $(e.target).val('blured');
+                });
+            }
+        }
+    });
+});
+</script>
+</body>
+</html>
