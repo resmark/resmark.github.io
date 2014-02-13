@@ -1,73 +1,100 @@
-
+<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="author" content="Resmark Systems">
+		<link rel="alternate" media="only screen and (max-width: 769px)" href="" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+		<link rel="alternate" media="handheld" href="" />
+		<link rel="apple-touch-icon" href="/img/icons/icon.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/icon.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/icon@2x.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/icon@2x.png" />
+				
+		<!-- Styles -->
+		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="/css/semantic.css">
+		<link rel="stylesheet" href="/css/animations.css">
 
-<meta name="author" content="Resmark Systems">
-<link rel="alternate" media="only screen and (max-width: 769px)" href="" />
-<link rel="alternate" media="handheld" href="" />
-<link rel="apple-touch-icon" href="/img/icons/icon.png" />
-<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/icon.png" />
-<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/icon@2x.png" />
-<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/icon@2x.png" />
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/modernizer.min.js"></script>
+		<script type="text/javascript" src="/js/selectivizr-min.js"></script>
+		<script type="text/javascript" src="/js/respond.min.js"></script>
 
-<!-- Styles -->
-<link rel="stylesheet" href="/css/styles.css">
-<link rel="stylesheet" href="/css/semantic.css">
-<link rel="stylesheet" href="/css/animations.css">
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="/js/modernizer.min.js"></script>
-<script type="text/javascript" src="/js/selectivizr-min.js"></script>
-<script type="text/javascript" src="/js/respond.min.js"></script>
-
-<!--[if lt IE 9]>
-	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
-
-<body>
-<header>
-
-<section class="center">
-<div id="logo"></div>
-</section>    
-
-</header>
-
-<div id="wrapper">
-
-<nav>
-	<ul>
-	<li>&#xf01c;</li>
-	<li>&#xf0e4;</li>
-	<li>&#xf073;</li>
-	<li>&#xf007;</li>
-	<li>&#xf085;</li>
-	<li>&#xf023;</li>
-	</ul>
-</nav>
-
-<section class="center">
+	</head>
+	<body>
+	
+	<div id="page">
+		
+	<header>	
+	<section class="center">		
+		<div id="logo"></div>
+	</section>
+	</header>
 
 
-<div class="ui pointing secondary demo menu">
-  <a class="active red item" data-tab="first">First</a>
-  <a class="blue item" data-tab="second">Second</a>
-  <a class="green item" data-tab="third">Third</a>
-</div>
-<div class="ui active tab segment" data-tab="first">First</div>
-<div class="ui tab segment" data-tab="second">Second</div>
-<div class="ui tab segment" data-tab="third">Third</div>
 
+		<section class="center ">
+		
+			<div class="menu-right">
+			<a href="#menu-right" class="right"><i class="fa fa-question-circle"></i></a>
+			</div>
+			<div class="menu-left">
+			<a href="#menu-left"><i class="fa fa-bars"></i></a>		
+			</div>	
 
-<div class="ui horizontal divider"><i class="github icon"></i></div>
+		</section>
+		
 
-</section>
-<!-- End wrapper -->
-</div>
-<footer>
-<div class="clearfix">
+					
+<!-- Left Menu (Main) -->
+			<nav id="menu-left">
+				<ul>
+					<li><a href="l">Divisions</a></li>
+					<li><a href="">Users</a></li>
+					<li><a href="">Payment Gateway</a></li>
+					<li><a href="">Payment Locations</a></li>
+					<li class="Selected">
+						<a href="#">Product Setup</a>
+						<ul>
+							<li><a href="#">Products</a></li>
+							<li><a href="#">Options</a></li>
+							<li><a href="#">Fees</a></li>
+							<li><a href="#">Discounts</a></li>
+							<li><a href="#">Group Discounts</a></li>
+							<li><a href="#">Taxes</a></li>
+							<li><a href="#">Policies</a></li>
+							<li><a href="#">Pickup Locations</a></li>
+							<li><a href="#">Create Inventory</a></li>
+							<li><a href="#">Edit Items</a></li>
+						</ul>
+					</li>
+					<li><a href="">Package Setup</a></li>
+					<li><a href="">Resource Management</a></li>
+					<li><a href="">Sales Setup</a></li>
+					<li><a href="">Resource Management</a></li>
+					<li><a href="">Sales Setup</a></li>
+					<li><a href="">Accounting Setup</a></li>
+					<li><a href="">Marketing Setup</a></li>
+					<li><a href="">Websites</a></li>
+					<li><a href="">Automated Email</a></li>
+					<li><a href="">Data Import</a></li>
+				</ul>
+			</nav>
+				
+			
+			
+<!-- Right Menu (Help) -->
+			<nav id="menu-right">
+			<section id="help">
+				<h1>Help goes here</h1>
+				<p>Help</p>
+			</section>
+			</nav>
+
+		
+<footer class="mm-fixed-bottom clearfix">
 	<ul id="icons-social">
 		<li class="fa fa-facebook"></li>
 		<li class="fa fa-google-plus"></li>
@@ -77,16 +104,12 @@
 		<li class="fa fa-youtube"></li>
 		<li class="fa fa-vimeo-square"></li>
 	</ul>
-</div>
 </footer>
 
-<!- Javascript -->
 
-<script type="text/javascript" src="/js/semantic.min.js"></script>
-<script type="text/javascript" src="/js/jquery.address.js"></script>
-<script>
-$('.demo.menu .item').tab('change tab', 'second');
-  
-</script>
-</body>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js"></script>
+		<script type="text/javascript" src="/js/mmenu.min.all.js"></script>
+		<script type="text/javascript" src="/js/menu.js"></script>
+
+	</body>
 </html>
