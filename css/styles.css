@@ -311,15 +311,15 @@ h1 a:hover,h2 a:hover,h3 a:hover {
 /* ******************************* The Rest *******************************/
 #wrapper {
 	width:100%;
-	max-width:960px;
+	max-width:1200px;
 	height:auto;
 	margin:0 auto;
 	padding:0 20px;
 }
 
 section.center {
-	width: 90%;
-	max-width:960px;
+	width: 100%;
+	max-width:1200px;
 	height:auto;
 	margin:0 auto;
 	vertical-align: top;
@@ -333,9 +333,12 @@ header {
 	display: inline-block;
 }
 
-section {
-
-	
+section.inside {
+	width: 100%;
+	max-width:1000px;
+	height:auto;
+	margin:0 auto;
+	vertical-align: top;
 }
 
 article {
