@@ -13,24 +13,23 @@
 		<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/icon@2x.png" />
 				
 		<!-- Styles -->
-		<link rel="stylesheet" href="/css/styles.css">
 		<link rel="stylesheet" href="/css/semantic.css">
 		<link rel="stylesheet" href="/css/animations.css">
+		<link rel="stylesheet prefetch" href="/css/styles.css">
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/modernizer.min.js"></script>
 		<script type="text/javascript" src="/js/selectivizr-min.js"></script>
 		<script type="text/javascript" src="/js/respond.min.js"></script>
 
+
 	</head>
 	<body>
 	
 	<div id="page">
 		
-	<header>	
-	<section class="center">		
+	<header>		
 		<div id="logo"></div>
-	</section>
 	</header>
 
 
@@ -48,36 +47,91 @@
 
 
 	<section class="inside">
-	<h1>Form</h1>
+	<h1>Product Setup</h1>
 		<div class="ui form segment">
 		  <p>Let's go ahead and get you signed up.</p>
+		  	<div class="inline field">
+		      <label>Product Name</label>
+		      <input placeholder="First Name" name="insert-product-name" type="text">
+		    </div>
+
 		  <div class="two fields">
-		    <div class="field">
-		      <label>First Name</label>
-		      <input placeholder="First Name" name="first-name" type="text">
+
+		    <div class="inline field">
+		      <label>Product Class</label>
+				<div class="ui compact menu">
+				  <div class="ui simple dropdown item">
+				    Select One <i class="dropdown icon"></i>
+				    <div class="menu">
+				      <div class="item">Group Activity</div>
+				      <div class="item">Private Activity</div>
+				      <div class="item">Event</div>
+				      <div class="item">Rental</div>
+				      <div class="item">Lodging</div>
+				      <div class="item">Retail/Ticket</div>
+				      <div class="item">eGift Card/Voucher</div>
+				      <div class="item">Quote Request</div>
+				    </div>
+				  </div>
+				</div>
 		    </div>
-		    <div class="field">
-		      <label>Last Name</label>
-		      <input placeholder="Last Name" name="last-name" type="text">
+
+		    <div class="inline field">
+		    <label>Product Type</label>
+		    <div class="ui compact menu">
+				  <div class="ui simple dropdown item">
+				    Select One <i class="dropdown icon"></i>
+				    <div class="menu">
+				      <div class="item">Group or Private Activity</div>
+				      <div class="item">Event</div>
+				      <div class="item">Rental</div>
+				      <div class="item">Lodging</div>
+				      <div class="item">Retail/Voucher/Quote</div>
+				    </div>
+				  </div>
+			</div>
+		  </div>
+
+		  </div>
+		 
+		  <div class="inline field">
+		    <label>Product Locations</label>
+		    <p>+ Add Location</p>
+		  </div>
+		<div class="inline field">
+	      <label>Start Time Notes</label>
+	      <input placeholder="First Name" name="insert-product-name" type="text">
+	      <p>Add End Time Notes</p>
+		   </div>
+
+		<div class="inline field">
+		    <label>Short Description</label>
+		    <textarea></textarea>
+		  </div>
+		<div class="inline field">
+		      <label>Bundle Settings</label>
+				<div class="ui compact menu">
+				  <div class="ui simple dropdown item">
+				    Select One <i class="dropdown icon"></i>
+				    <div class="menu">
+				      <div class="item">Sell only in a bundle</div>
+				      <div class="item">Add to bundle(s)</div>
+				    </div>
+				  </div>
+				</div>
 		    </div>
+
+		<div class="inline field">
+		    <label>Product Information</label>
+		    <textarea></textarea>
 		  </div>
-		  <div class="field">
-		    <label>Username</label>
-		    <input placeholder="Username" name="username" type="text">
-		  </div>
-		  <div class="field">
-		    <label>Password</label>
-		    <input type="password" name="password">
+		 <div class="inline field">
+		    <label>Internal Product Notes</label>
+		    <textarea></textarea>
 		  </div>
 		  <div class="inline field">
-		    <div class="ui checkbox">
-		      <input type="checkbox" name="terms">
-		      <label>I agree to the Terms and Conditions</label>
-		    </div>
-		  </div>
-		  <div class="ui blue submit button">Submit</div>
-		  <div class="ui error message"></div>
-		</div>
+		  <label>Images</label>	
+		  </div>	  
 	</section>
 	
 	
