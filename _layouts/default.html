@@ -7,18 +7,26 @@
 
 <body>
     {% include analytics.html %}
-     <div id="page">
 
     <header>
         <div id="logo"></div>
     </header>
 
-{% include menu.html %}
+     <div id="page">
+        <div class="menu-left">
+            <a href="#menu-left"><i class="fa fa-bars"></i></a> 
+            {% include menu-left.html %}
+    </div>
+
+
+        <div class="menu-right">
+            <a href="#menu-right" class="right"><i class="fa fa-question-circle"></i></a>
+            {% include menu-right.html %}
+        </div>
 
     {{ content }}
 
-{% include menu-left.html %}
-{% include menu-right.html %}
+
 </div>
 
 {% include footer.html %}

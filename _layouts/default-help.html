@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    {% include header.html %}
+</head>
+
+<body>
+    {% include analytics.html %}
+     <div id="page">
+
+    <header>
+        <div id="logo"></div>
+    </header>
+
+{% include menu.html %}
+
+    {{ content }}
+
+{% include menu-left.html %}
+{% include menu-right.html %}
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>
