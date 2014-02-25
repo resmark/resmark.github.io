@@ -1,13 +1,19 @@
-        <script type="text/javascript" src="/js/hammer.min.js"></script>
-        <script type="text/javascript" src="/js/mmenu.min.all.js"></script>
-        <script type="text/javascript" src="/js/menu.js"></script>
-        <script src="redactor/redactor.min.js"></script>
-        <script src="filedrag.js"></script>
+<script type="text/javascript" src="/js/hammer.min.js"></script>
+<script type="text/javascript" src="/js/mmenu.min.all.js"></script>
+<script type="text/javascript" src="/js/menu.js"></script>
+<script src="/js/tabs.min.js"></script>
+<script src="redactor/redactor.min.js"></script>
+<script src="filedrag.js"></script>
 
-        <script type="text/javascript">
-        $(document).ready(
-            function() {
-                $('#redactor, #redactor2, #redactor3').redactor();
-            }
-        );
-        </script>
+<script type="text/javascript">
+$(document).ready(
+    function() {
+        $('#redactor, #redactor2, #redactor3').redactor();
+    }
+);
+</script>
+<script>
+$(document).ready(function(){
+	$('dl').tabs();
+});
+</script>

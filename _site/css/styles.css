@@ -1468,7 +1468,7 @@ iframe, embed, object {
     max-width:100%;
 }
 strong {
-    font: normal 400 100%/1.5 'proxima-nova-bold', 'Helvetica Neue', "Helvetica", "Arial", sans-serif;
+    font: normal 400 100%/1.5'proxima-nova-bold', 'Helvetica Neue', "Helvetica", "Arial", sans-serif;
 }
 table {
     border-collapse:collapse;
@@ -1676,7 +1676,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
     padding:0 20px;
 }
 section.center {
-    width: 80%;
+    width: 100%;
     max-width:1200px;
     height:auto;
     margin:0 auto;
@@ -1691,7 +1691,6 @@ header {
     top: 0;
     position: fixed;
 }
-
 article {
     padding: 1em 0;
 }
@@ -1714,7 +1713,6 @@ article {
     font-size: 150%;
     padding-left: 15px;
 }
-
 .help {
     min-height: 20px;
     padding: 10px 10px;
@@ -1729,27 +1727,22 @@ article {
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-
 .help p {
     text-align: left;
     font-size: 90%;
     padding: 0 20px 0 0;
 }
-
-.help  h2{
+.help h2 {
     border-bottom: 1px solid #E5E5E5;
     padding-bottom: 12px;
 }
-
 .ui.form .inline.field > label {
-    font:  normal 14px/1 'proxima-nova-bold', 'Helvetica Neue', "Helvetica", "Arial", sans-serif;
+    font: normal 14px/1'proxima-nova-bold', 'Helvetica Neue', "Helvetica", "Arial", sans-serif;
     text-align: right;
 }
-
 label:after {
-    content: ":";
+    content:":";
 }
-
 input:focus, textarea:focus {
     outline: 0;
     border-color: rgba(82, 168, 236, 0.8);
@@ -1757,9 +1750,8 @@ input:focus, textarea:focus {
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
 }
-
 .ui.dropdown > .text {
-font-size: 0.875em;
+    font-size: 0.875em;
 }
 /* Menu */
  .menu-right, .menu-left {
@@ -1796,7 +1788,6 @@ font-size: 0.875em;
     left: auto;
     right: 10px;
 }
-
 /* Semanit UI Overrides*/
  .ui.form .inline.fields .field > input, .ui.form .inline.field > input {
     width: 100%;
@@ -1805,30 +1796,63 @@ font-size: 0.875em;
 .ui.form .inline.fields .field > label, .ui.form .inline.fields .field > p, .ui.form .inline.fields .field > input, .ui.form .inline.field > label, .ui.form .inline.field > p, .ui.form .inline.field > input {
     min-width: 140px;
 }
-
 .ui.textarea, .ui.form textarea {
     width: 70%;
 }
-
 .ui.form .inline.fields .field > input, .ui.form .inline.field > input {
     width: 100%;
     max-width: 210px;
     text-align: left;
 }
-
 .ui.checkbox label {
-    font-size: 14px;    
+    font-size: 14px;
 }
-
 .dropdown {
-    width:  210px;
+    width: 210px;
 }
-
 .ui.dropdown > .dropdown.icon {
-margin: 0;
-float: right;
+    margin: 0;
+    float: right;
 }
-
+/* Tabs */
+ dl {
+    position: relative;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+dl.enhance {
+    border-width: 0 0 1px 1px;
+}
+dl.enhance dt {
+    width: 150px;
+    line-height: 2;
+    text-align: center;
+    float: left;
+    background: #F5F5F5;
+}
+dl.enhance dt a {
+    height: 30px;
+    display: block;
+}
+dl.enhance dt.current {
+    background: #FFF;
+    border-bottom: 1px solid #FFF;
+    position: relative;
+    z-index: 2;
+}
+dl.enhance dt.current a {
+    height: 29px;
+}
+dl.enhance dd {
+    margin: 1.5em 0 0 0;
+    padding: 0 10px;
+    position: absolute;
+    top: 30px;
+    background: #FFF;
+    border-width: 1px 1px 0 0;
+    
+}
 /*File Drag*/
  #filedrag {
     display: none;
@@ -1954,8 +1978,8 @@ html.mm-opened #mm-blocker, html.mm-blocking #mm-blocker {
     margin-top: 80px;
 }
 #page {
-margin-top: 80px;
-padding-top: 1em;
+    margin-top: 80px;
+    padding-top: 1em;
 }
 .mm-menu {
     background:inherit;
