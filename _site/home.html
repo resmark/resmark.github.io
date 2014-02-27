@@ -22,7 +22,6 @@
     <script type="text/javascript" src="/js/modernizer.min.js"></script>
     <script type="text/javascript" src="/js/selectivizr-min.js"></script>
     <script type="text/javascript" src="/js/respond.min.js"></script>
-    <script type="text/javascript" src="/js/redactor.min.js"></script>
 
 
 <!--[if lt IE 9]>
@@ -42,8 +41,33 @@
     <header>
         <div id="logo"></div>
     </header>
+              
 
      <div id="page">
+
+          <div class="ui form">
+                    <!-- Field -->
+                        <div class="ui compact menu">
+                            <div class="ui simple dropdown item">
+                                <div class="text">Select One</div>
+                                <i class="dropdown icon"></i>
+                                <div class="menu">
+                                    <div class="item">Group Activity</div>
+                                    <div class="item">Private Activity</div>
+                                    <div class="item">Event</div>
+                                    <div class="item">Rental</div>
+                                    <div class="item">Lodging</div>
+                                    <div class="item">Retail/Ticket</div>
+                                    <div class="item">eGift Card/Voucher</div>
+                                    <div class="item">Quote Request</div>
+                                </div>
+                            </div>
+                    <!-- End Field -->
+                </div>
+            </div>
+
+
+
         <div class="menu-left">
             <a href="#menu-left"><i class="fa fa-bars"></i></a> 
                    <!-- Left Menu (Main) -->
@@ -119,16 +143,22 @@
         </div>
 
     <section class="center ">
-   <dl>
-        <dt id="tab1"><a href="#tab1">Product Setup</a></dt>
-        <dd>
-            
-    <h2 class="ui header"><i class="settings icon"></i>Product Setup</h2>
+
+  <div class="ui  pointing fluid five item menu">
+    <a class="active item" data-tab="details"><i class="settings icon"></i>Product Details</a>
+    <a class="item" data-tab="pricing">Pricing</a>
+    <a class="item" data-tab="schedule">Schedule</a>
+    <a class="item" data-tab="fields">Fields</a>
+    <a class="item" data-tab="preview">Preview</a>
+  </div>
+
+  <div class="ui active tab segment" data-tab="details">
+    <h2 class="ui header">Product Details</h2>
     <p>How about a little bit of intro product setup content here? volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
 
 
 
-    <div class="ui stackable relaxed grid">
+    <div class="ui stackable grid">
         <div class="twelve wide column">
             <div class="ui segment">
                 <div class="ui form">
@@ -298,21 +328,30 @@
                     <!-- Field -->
                     <div class=" inline field">
                         <label>Short Description</label>
-                        <textarea></textarea>
+                            <textarea  id="textarea-short" data-maxsize="200"  rows="4" data-output="status1" wrap="virtual" placeholder="Maximum 200 characters"></textarea>
+                            <div id="status1" class="right" style="margin-right: 20px;"></div>
                     </div>
                     <!-- End Field -->
 
                     <!-- Field -->
                     <div class=" inline field">
                         <label>Product Information</label>
-                        <textarea></textarea>
+                        <textarea id="redactor2" name="content">
+                                <p>It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.
+                                     Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.
+                                  The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...</p>
+                            </textarea>
                     </div>
                     <!-- End Field -->
 
                     <!-- Field -->
                     <div class=" inline field">
                         <label>Internal Product Notes</label>
-                        <textarea></textarea>
+                                <textarea id="redactor3" name="content">
+                                <p>It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.
+                                     Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.
+                                  The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...</p>
+                            </textarea>
                     </div>
                     <!-- End Field -->
 
@@ -338,6 +377,9 @@
 
 
                     <!-- Field -->
+                     <div class="inline field">
+                    <a class="ui green button right">Save &amp; next</a>
+                </div>
                     <!-- End Field -->
 
                 </div>
@@ -346,54 +388,63 @@
         </div>
 
 <div class="four wide column help">
-<h2 class="fa fa-question-circle"> Help goes here</h2>
-<p><strong>Description</strong><br />
-Please enter a basic description of this product.
+<h2 class="fa fa-question-circle"> Help title</h2>
+  <p><strong>Description</strong><br />
 
-This must be at least 15 characters long, and can be up to 240 characters long if required.
 
-Formatting is not allowed, so please use plain text only.</p>
-</div>
+<p><strong>Apply to this product only</strong><br />This policy will be available to apply to other products, but will need to be applied manually to each product.</p>
+<p><strong>Apply to all existing products</strong><br />Upon saving, this policy will be applied to all existing products.  It can always be removed from any individual product.</p>
+<p><strong>Apply to all new products</strong><br />This policy will be automatically applied to each new product you create.  It can always be removed from any individual product.</p>
+<p><strong>Apply to all new and existing products</strong><br />Upon saving, this policy will be applied to all existing products. It will also be automatically applied to each new product you create. It can always be removed from any individual product.</p>
+
+
+
+</div> 
         <!-- End Grid -->
-        <div>
-        </dd>
-        <dt id="tab2"><a href="#tab2">Pricing</a></dt>
-        <dd>
-            <p>It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.</p>
+        </div></div>
+  <div class="ui tab segment" data-tab="pricing">        <p>Pricing It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.</p>
             <p>Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.</p>
             <p>The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...</p>
-        </dd>
-        <dt id="tab2"><a href="#tab2">The Other Tab</a></dt>
-        <dd>
-            <p>Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt.</p>
+</div>
+  <div class="ui tab segment" data-tab="schedule">            <p>Schedule. Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt.</p>
             <p>Little does Luke know that the GALACTIC EMPIRE has secretly begun construction on a new armored space station even more powerful than the first dreaded Death Star.</p>
-            <p>When completed, this ultimate weapon will spell certain doom for the small band of Rebels struggling to restore freedom to the galaxy...</p>
-        </dd>
-    </dl>
+            <p>When completed, this ultimate weapon will spell certain doom for the small band of Rebels struggling to restore freedom to the galaxy...</p></div>
+  <div class="ui tab segment" data-tab="fields">            <p>Fields. Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt.</p>
+            <p>Little does Luke know that the GALACTIC EMPIRE has secretly begun construction on a new armored space station even more powerful than the first dreaded Death Star.</p>
+            <p>When completed, this ultimate weapon will spell certain doom for the small band of Rebels struggling to restore freedom to the galaxy...</p></div>
+  <div class="ui tab segment" data-tab="preview">            <p>Preveiw. Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt.</p>
+            <p>Little does Luke know that the GALACTIC EMPIRE has secretly begun construction on a new armored space station even more powerful than the first dreaded Death Star.</p>
+            <p>When completed, this ultimate weapon will spell certain doom for the small band of Rebels struggling to restore freedom to the galaxy...</p></div>
 
 </section>
 
 
+
+
+
+
+
+
 </div>
 
+<script type="text/javascript"  src="/js/semantic.min.js"></script>
 <script type="text/javascript" src="/js/hammer.min.js"></script>
 <script type="text/javascript" src="/js/mmenu.min.all.js"></script>
 <script type="text/javascript" src="/js/menu.js"></script>
-<script src="/js/tabs.min.js"></script>
-<script src="redactor/redactor.min.js"></script>
-<script src="filedrag.js"></script>
+<script type="text/javascript"  src="/js/tabs.min.js"></script>
+<script type="text/javascript"  src="/js/filedrag.js"></script>
+<script type="text/javascript"  src="/js/redactor.min.js"></script>
+<script type="text/javascript"  src="/js/maxlength.js"></script>
 
 <script type="text/javascript">
-$(document).ready(
-    function() {
-        $('#redactor, #redactor2, #redactor3').redactor();
-    }
-);
-</script>
-<script>
-$(document).ready(function(){
-	$('dl').tabs();
-});
+	$(document).ready(function(){
+	$('.ui.accordion').accordion();
+	$('.menu .item').tab({history:false});
+	});
+	
+	$('#redactor, #redactor2, #redactor3').redactor({
+	air: true
+	});
 </script>
 
 </body>
