@@ -1691,6 +1691,7 @@ header {
     display: inline-block;
     top: 0;
     position: fixed;
+    padding: 15px 15px 0 0;
 }
 article {
     padding: 1em 0;
@@ -1702,6 +1703,17 @@ article {
     background:transparent url(/img/logo.png) no-repeat 0 50%;
     background-size: contain;
     margin-left: 2%;
+    float: left;
+
+}
+
+#division {
+    float: right;
+}
+
+#switcher {
+    display: inline-block;
+    background: #FFF !important;
 }
 #icons-social {
     float: right;
@@ -1713,6 +1725,10 @@ article {
     float: left;
     font-size: 150%;
     padding-left: 15px;
+}
+
+i.fa {
+font-size: 80%;
 }
 .help {
     min-height: 20px;
