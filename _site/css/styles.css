@@ -1707,8 +1707,16 @@ article {
 
 }
 
-#division {
+#login {
     float: right;
+    color:#FFF;
+    padding: 10px 0;
+    font-size: 75%;
+    text-transform: uppercase;
+}
+#login .name-login {
+  opacity: .5;
+  text-transform: capitalize;
 }
 
 #switcher {
@@ -1754,7 +1762,7 @@ font-size: 80%;
 .help p {
     text-align: left;
     padding: 0 20px 0 0;
-   
+
 }
 .help h2 {
     border-bottom: 1px solid #E5E5E5;
@@ -1840,8 +1848,8 @@ width: 80%;
 display: inline-block;
 }
 
-.dropdown, 
-.ui.form .inline.fields .field > input, .ui.form .inline.field > input {  
+.dropdown,
+.ui.form .inline.fields .field > input, .ui.form .inline.field > input {
         width: 265px;
 }
 
@@ -1958,6 +1966,6 @@ html.mm-opened .mm-page,html.mm-opened #mm-blocker,html.mm-opened .mm-fixed-top,
         width: 100%;
     }
     .ui.form .inline.field > label {
-        text-align: left;   
+        text-align: left;
     }
 }
