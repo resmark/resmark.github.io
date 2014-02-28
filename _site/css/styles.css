@@ -1789,6 +1789,10 @@ input:focus, textarea:focus {
 .ui.menu .active.item {
     color:  #F7941E;
 }
+ .ui.form .inline.field > label.redactor{
+
+  vertical-align: top;
+}
 
 .redactor_editor,  .ui.menu, .ui.form textarea, .ui.form input[type="text"], .ui.form input[type="email"], .ui.form input[type="date"], .ui.form input[type="password"], .ui.form input[type="number"], .ui.form input[type="url"], .ui.form input[type="tel"]{
     background: #F2F0ED !important;
@@ -1867,12 +1871,13 @@ display: inline-block;
 }
 
 .ui.item.menu, .ui.item.menu .item {
-    background: #FFF;
+    background: #F5F5F5;
 }
 
 .ui.link.menu .item:hover, .ui.menu .item.hover, .ui.menu .link.item:hover, .ui.menu a.item:hover, .ui.menu .ui.dropdown .menu .item.hover, .ui.menu .ui.dropdown .menu .item:hover {
     background: #FFF;
 }
+
 
 .ui.segment, .ui.menu {
     margin:  0;
@@ -1880,7 +1885,7 @@ display: inline-block;
 }
 
 .ui.segment {
-    box-shadow:  none;;
+    box-shadow: none;
 }
 
 /*File Drag*/
@@ -1894,6 +1899,9 @@ display: inline-block;
     border: 2px dashed #CCC;
     border-radius: 7px;
     cursor: default;
+    display: inline-block;
+    max-width: 365px;
+    width: 100%;
 }
 #filedrag.hover {
     color: #f00;

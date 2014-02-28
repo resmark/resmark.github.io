@@ -135,7 +135,7 @@
 
 
 
-  <div class="ui  fluid five item menu">
+  <div class="ui fluid five item menu">
     <a class="active item" data-tab="details"><i class="fa fa-cogs"></i>Product Details</a>
     <a class="item" data-tab="pricing"><i class="fa fa-usd"></i>Pricing</a>
     <a class="item" data-tab="schedule"><i class="fa fa-calendar"></i>Schedule</a>
@@ -145,10 +145,6 @@
 
   <div class="ui active tab segment" data-tab="details">
     <h2 class="ui header">Product Details</h2>
-    <p>How about a little bit of intro product setup content here? volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-
-
-
     <div class="ui stackable grid">
         <div class="twelve wide column">
             <div class="ui segment">
@@ -171,11 +167,11 @@
                                     <div class="item">Group Activity</div>
                                     <div class="item">Private Activity</div>
                                     <div class="item">Event</div>
+                                    <div class="item">Retail</div>
+                                    <div class="item">Ticket</div>
                                     <div class="item">Rental</div>
                                     <div class="item">Lodging</div>
-                                    <div class="item">Retail/Ticket</div>
-                                    <div class="item">eGift Card/Voucher</div>
-                                    <div class="item">Quote Request</div>
+                                    <div class="item">Lesson or Class</div>
                                 </div>
                             </div>
                         </div>
@@ -192,9 +188,8 @@
                                 <div class="menu">
                                     <div class="item">Group or Private Activity</div>
                                     <div class="item">Event</div>
+                                    <div class="item">Retail</div>
                                     <div class="item">Rental</div>
-                                    <div class="item">Lodging</div>
-                                    <div class="item">Retail/Voucher/Quote</div>
                                 </div>
                             </div>
                         </div>
@@ -204,8 +199,8 @@
 
                     <!-- Field -->
                     <div class="inline field">
-                        <label>Primary Locations</label>
-                        <input placeholder="Primary location" name="primary-location" type="text">
+                        <label>Product Locations</label>
+                        <input placeholder="Example: San Diego, California" name="primary-location" type="text">
                         <p><a href="" class="small">+ Add Location</a>
                         </p>
                     </div>
@@ -214,138 +209,104 @@
 
                     <!-- Field -->
                     <div class="inline field">
-                        <label>Start Time Notes</label>
-                        <input placeholder="Start Time Notes" name="start-time-notes" type="text">
-                        <p><a href=" " class="small">+ Add End Time Notes</a>
-                        </p>
-                    </div>
-                    <!-- End Field -->
-
-
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label>Bundle Settings</label>
-                        <div class="ui compact menu">
-                            <div class="ui simple dropdown item">
-                                <div class="text">Select One</div>
-                                <i class="dropdown icon"></i>
-                                <div class="menu">
-                                    <div class="item">Sell only in a bundle</div>
-                                    <div class="item">Add to bundle(s)</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Field -->
-
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label>Duration</label>
-                        <input placeholder="Start Time Notes" name="insert-product-name" type="text">
-                        <div class="ui compact menu">
-                            <div class="ui simple dropdown item">
-                                <div class="text">Select One</div>
-                                <i class="dropdown icon"></i>
-                                <div class="menu">
-                                    <div class="item">Hours</div>
-                                    <div class="item">Minutes</div>
-                                </div>
-                            </div>
-                        </div>
-                        <p><a href=" " class="small">+ Add Range</a>
-                        </p>
-                    </div>
-                    <!-- End Field -->
-
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label>Minium Age</label>
-                        <input placeholder="Ex; 17" name="insert-product-name" type="text">
-                        <p><a href=" " class="small">+ Add Range</a>
-                        </p>
-                    </div>
-                    <!-- End Field -->
-
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label>Videos</label>
-                                     <div class="ui compact menu">
-                            <div class="ui simple dropdown item">
-                                <div class="text">Video Source</div>
-                                <i class="dropdown icon"></i>
-                                <div class="menu">
-                                    <div class="item">YouTube</div>
-                                    <div class="item">Vimeo</div>
-                                </div>
-                            </div>
-                        </div>
-                        <input placeholder="Video URL" name="insert-product-name" type="text">
-           
-                        <p><a href=" " class="small">+ Add another</a>
-                        </p>
-                    </div>
-                    <!-- End Field -->
-
-                <!-- Field -->
-                    <div class="inline field">
-                        <label>Polices</label>
-                            <div class="ui checkbox">
-                            <input type="checkbox" name="fun">
-                            <label>Display on confirmation after purchase</label>
-                        </div>
-                    </div>
-                    <!-- End Field -->
-
-                <!-- Field -->
-                    <div class="inline field">
-                        <label></label>
-                        <div class="ui checkbox">
-                        <input type="checkbox" name="fun">
-                            <label>Require agreement before purchase</label> <a href="" class="small">Apply</a>
-                        </div>
-                    </div>
-                    <!-- End Field -->
-
-                 <!-- Field -->
-                    <div class="inline field">
-                        <label>Gift Settings</label>
-                        <div class="ui checkbox">
-                            <input type="checkbox" name="fun">
-                            <label>Allow this product to be purchased as a gift. Expires <a href="">XX</a> days after purchase</label>
-                        </div>
-                    </div>
-                    <!-- End Field -->
-
-                    <!-- Field -->
-                    <div class=" inline field">
-                        <label>Short Description</label>
+                        <label class="redactor">Short Description</label>
                             <textarea  id="textarea-short" data-maxsize="200"  rows="4" data-output="status1" wrap="virtual" placeholder="Maximum 200 characters"></textarea>
                             <div id="status1" class="right" style="margin-right: 20px;"></div>
                     </div>
                     <!-- End Field -->
 
                     <!-- Field -->
-                    <div class=" inline field">
-                        <label>Product Information</label>
-                        <textarea id="redactor2" name="content">
-                                <p>It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.
-                                     Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.
-                                  The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...</p>
+                    <div class="inline field">
+                        <label class="redactor">Product Information</label>
+                        <textarea id="redactor2" name="content" placeholder="Create sections of information to sell your product.  The overview and highlights are required. You may also add details to the other listed sections or create your own sections">
                             </textarea>
                     </div>
                     <!-- End Field -->
 
                     <!-- Field -->
-                    <div class=" inline field">
-                        <label>Internal Product Notes</label>
-                                <textarea id="redactor3" name="content">
-                                <p>It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.
-                                     Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.
-                                  The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...</p>
-                            </textarea>
+                    <div class="inline field">
+                        <label class="redactor">Highlights</label>
+                          <textarea id="redactor3" name="content" placeholder="Include a short, bullet list of the most attractive aspects of this product">
+                          </textarea>
                     </div>
                     <!-- End Field -->
 
+                  <!-- Field -->
+                  <div class="inline field">
+                      <label class="redactor">Itinerary</label>
+                        <textarea id="redactor3" name="content" placeholder="Provide a more in-depth look at the different sections, days or primary elements of this product">
+                        </textarea>
+                  </div>
+                  <!-- End Field -->
+
+                  <!-- Field -->
+                  <div class="inline field">
+                      <label class="redactor">What to Bring</label>
+                        <textarea id="redactor3" name="content" placeholder="A list that details what each participant should wear or bring">
+                        </textarea>
+                  </div>
+                  <!-- End Field -->
+
+                  <!-- Field -->
+                  <div class="inline field">
+                      <label class="redactor">FAQ</label>
+                        <textarea id="redactor3" name="content" placeholder="Some of the most common questions along with the corresponding answer">
+                        </textarea>
+                  </div>
+                  <!-- End Field -->
+
+                  <!-- Field -->
+                  <div class="inline field">
+                      <label class="redactor">Rules</label>
+                        <textarea id="redactor3" name="content" placeholder="List any rules or limitations to participation or purchase of this product">
+                        </textarea>
+                  </div>
+                  <!-- End Field -->
+
+                  <!-- Field -->
+                  <div class="inline field">
+                      <label class="redactor">Additional Information</label>
+                        <textarea id="redactor3" name="content" placeholder="Any other details which have not been addressed in any of the provided sections">
+                        </textarea>
+                  </div>
+                  <!-- End Field -->
+
+
+                  <!-- Field -->
+                  <div class="inline field">
+                      <label class="redactor">Includes</label>
+                        <textarea id="redactor3" name="content" placeholder="A bullet list of the services or items included with this product.">
+                        </textarea>
+                  </div>
+                  <!-- End Field -->
+
+                  <!-- Field -->
+                  <div class="inline field">
+                      <label class="redactor">Excludes</label>
+                        <textarea id="redactor3" name="content" placeholder="A bullet list of the services or items not included with this product">
+                        </textarea>
+                  </div>
+                  <!-- End Field -->
+
+                  <!-- Field -->
+                  <div class="inline field">
+                      <label>Videos</label>
+                                   <div class="ui compact menu">
+                          <div class="ui simple dropdown item">
+                              <div class="text">Video Source</div>
+                              <i class="dropdown icon"></i>
+                              <div class="menu">
+                                  <div class="item">YouTube</div>
+                                  <div class="item">Vimeo</div>
+                              </div>
+                          </div>
+                      </div>
+                      <input placeholder="Video URL" name="insert-product-name" type="text">
+
+                      <p><a href=" " class="small">+ Add another</a>
+                      </p>
+                  </div>
+                  <!-- End Field -->
 
                     <!-- Field -->
                     <div class="inline field">
@@ -366,6 +327,7 @@
                     <!-- End Field -->
 
 
+<h2 class="ui header">Policies</h2>
 
                     <!-- Field -->
                      <div class="inline field">
@@ -390,9 +352,10 @@
 
 
 
-</div> 
+</div>
         <!-- End Grid -->
-        </div></div>
+        </div>
+</div>
   <div class="ui tab segment" data-tab="pricing">        <p>Pricing It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.</p>
             <p>Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.</p>
             <p>The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...</p>
