@@ -11,26 +11,25 @@
     <header>
         <div id="logo"></div>
         <div id="login">
-      <span class="name-login">Welcome Brandon Lake</span> | My Account | Setup | Sign out
+
+      <div class="ui dropdown">
+      <div class="text"><span class="name-login">Welcome Brandon Lake</span></div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <div class="item">My Account</div>
+        <div class="item">Setup</div>
+        <div class="item">Logout</div>
+      </div>
+    </div>
+
         </div>
     </header>
 
      <div id="page">
-        <div class="menu-left">
-            <a href="#menu-left"><i class="fa fa-bars"></i></a>
+        <a id="open-menu"><i class="fa fa-bars"></i></a>
             {% include menu-left.html %}
+      {{ content }}
     </div>
-
-
-        <div class="menu-right">
-            <a href="#menu-right" class="right"><i class="fa fa-question-circle"></i></a>
-            {% include menu-right.html %}
-        </div>
-
-    {{ content }}
-
-
-</div>
 
 {% include footer.html %}
 

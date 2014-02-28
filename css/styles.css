@@ -1569,12 +1569,20 @@ blockquote.right {
     color:#F67816;
     font-size:20px;
 }
-small {
-    color:#e51837;
-}
+
 .small {
     font-size:10px;
 }
+
+#status1 {
+text-align: right;
+margin: 10px 20px 0 0;
+}
+
+#status1:after {
+  content: " of 200 characters";
+}
+
 .right {
     float:right;
     margin:0 0 2em 2em;
@@ -1691,7 +1699,6 @@ header {
     display: inline-block;
     top: 0;
     position: fixed;
-    padding: 15px 15px 0 0;
 }
 article {
     padding: 1em 0;
@@ -1710,7 +1717,7 @@ article {
 #login {
     float: right;
     color:#FFF;
-    padding: 10px 0;
+    padding: 25px 20px 0 0;
     font-size: 75%;
     text-transform: uppercase;
 }
@@ -1802,7 +1809,7 @@ input:focus, textarea:focus {
     background: #FFF;
 }
 /* Menu */
- .menu-right, .menu-left {
+ .menu-right, #open-menu {
     width: 100%;
     max-width: 50px;
     height: 100%;
@@ -1813,10 +1820,19 @@ input:focus, textarea:focus {
     font-size: 170%;
     margin-right: 2%
 }
-.menu-left {
+#open-menu {
     float: left;
     font-size: 170%;
     margin-left: 2%
+}
+
+.sidebar, .sidebar a, .item.title {
+  color: #F2F0ED !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 14px !important;
+}
+.ui.active.sidebar {
+  background: #333 !important;
 }
 #page nav {
     display: none;
@@ -1899,6 +1915,9 @@ box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.1)
 background-image: none;
 }
 
+.ui.header {
+  font-weight: normal;
+}
 /*File Drag*/
  #filedrag {
     display: none;

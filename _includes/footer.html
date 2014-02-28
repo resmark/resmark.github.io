@@ -1,7 +1,4 @@
 <script type="text/javascript"  src="/js/semantic.min.js"></script>
-<script type="text/javascript" src="/js/hammer.min.js"></script>
-<script type="text/javascript" src="/js/mmenu.min.all.js"></script>
-<script type="text/javascript" src="/js/menu.js"></script>
 <script type="text/javascript"  src="/js/tabs.min.js"></script>
 <script type="text/javascript"  src="/js/filedrag.js"></script>
 <script type="text/javascript"  src="/js/redactor.min.js"></script>
@@ -10,9 +7,14 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 	$('.ui.accordion').accordion();
+	$('#open-menu').click(function()
+	{
+	$('.sidebar').sidebar({overlay: false})
+		.sidebar('toggle');
+		});
 	$('.menu .item').tab({history:false});
 	});
-	
+
 	$('#redactor, #redactor2, #redactor3').redactor({
 	air: true
 	});

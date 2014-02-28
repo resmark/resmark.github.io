@@ -41,93 +41,66 @@
     <header>
         <div id="logo"></div>
         <div id="login">
-      <span class="name-login">Welcome Brandon Lake</span> | My Account | Setup | Sign out
+
+      <div class="ui dropdown">
+      <div class="text"><span class="name-login">Welcome Brandon Lake</span></div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <div class="item">My Account</div>
+        <div class="item">Setup</div>
+        <div class="item">Logout</div>
+      </div>
+    </div>
+
         </div>
     </header>
 
      <div id="page">
-        <div class="menu-left">
-            <a href="#menu-left"><i class="fa fa-bars"></i></a>
-                   <!-- Left Menu (Main) -->
-        <nav id="menu-left">
-            <ul>
-                <li><a href="">Users</a>
-                </li>
-                <li><a href="">Payment Gateway</a>
-                </li>
-                <li><a href="">Payment Locations</a>
-                </li>
-                <li>
-                    <a href="#">Product Setup</a>
-                    <ul>
-                        <li><a href="#">Products</a>
-                        </li>
-                        <li><a href="#">Options</a>
-                        </li>
-                        <li><a href="#">Fees</a>
-                        </li>
-                        <li><a href="#">Discounts</a>
-                        </li>
-                        <li><a href="#">Group Discounts</a>
-                        </li>
-                        <li><a href="#">Taxes</a>
-                        </li>
-                        <li><a href="#">Policies</a>
-                        </li>
-                        <li><a href="#">Pickup Locations</a>
-                        </li>
-                        <li><a href="#">Create Inventory</a>
-                        </li>
-                        <li><a href="#">Edit Items</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="">Package Setup</a>
-                </li>
-                <li><a href="">Resource Management</a>
-                </li>
-                <li><a href="">Sales Setup</a>
-                </li>
-                <li><a href="">Resource Management</a>
-                </li>
-                <li><a href="">Sales Setup</a>
-                </li>
-                <li><a href="">Accounting Setup</a>
-                </li>
-                <li><a href="">Marketing Setup</a>
-                </li>
-                <li><a href="">Websites</a>
-                </li>
-                <li><a href="">Automated Email</a>
-                </li>
-                <li><a href="">Data Import</a>
-                </li>
-            </ul>
-        </nav>
+        <a id="open-menu"><i class="fa fa-bars"></i></a>
+            <!-- Left Menu (Main) -->
+<div class="ui vertical sidebar menu accordion">
 
+<a class="item">Users</a>
+<a class="item">Payment Gateway</a>
+<a class="item">Payment Locations</a>
+
+
+<div class="item title"><i class="dropdown icon"></i>Product Setup</div>
+    <div class="content">
+        <a class="item">About</a>
+        <a class="item">Contact Us</a>
+        <a class="item">Products</a>
+        <a class="item">Options</a>
+        <a class="item">Fees</a>
+        <a class="item">Discounts</a>
+        <a class="item">Group Discounts</a>
+        <a class="item">Taxes</a>
+        <a class="item">Policies</a>
+        <a class="item">Pickup Locations</a>
+        <a class="item">Create Inventory</a>
+        <a class="item">Edit Items</a>
     </div>
 
+<a class="item">Package Setup</a>
+<a class="item">Resource Management</a>
+<a class="item">Sales Setup</a>
+<a class="item">Resource Management</a>
+<a class="item">Sales Setup</a>
+<a class="item">Accounting Setup</a>
+<a class="item">Marketing Setup</a>
+<a class="item">Websites</a>
+<a class="item">Automated Email</a>
+</div>
 
-        <div class="menu-right">
-            <a href="#menu-right" class="right"><i class="fa fa-question-circle"></i></a>
-                <!-- Right Menu (Help) -->
-        <nav id="menu-right">
-            <section id="help">
-                <h1>Help goes here</h1>
-                <p>Help</p>
-            </section>
-        </nav>
-        </div>
-
-    <section class="center ">
+      <section class="center ">
     <p>
     <div id="switcher" class="ui compact menu">
         <div class="ui simple dropdown item">
-            <div class="text fa fa-tachometer"> Division</div>
+            <div class="text">Ocoee River 1 Day Rafting Trip</div>
             <i class="dropdown icon"></i>
             <div class="menu">
-                <div class="item">Western River</div>
-                <div class="item">Moab Adventure Center</div>
+                <div class="item">3 Hour Hummer Tour</div>
+                <div class="item">Zipline Tour</div>
             </div>
         </div>
     </div>
@@ -144,7 +117,7 @@
   </div>
 
   <div class="ui active tab segment" data-tab="details">
-    <h2 class="ui header">Product Details</h2>
+    <h2 class="ui dividing header">Product Details</h2>
     <div class="ui stackable grid">
         <div class="twelve wide column">
             <div class="ui segment">
@@ -211,13 +184,16 @@
                     <div class="inline field">
                         <label class="redactor">Short Description</label>
                             <textarea  id="textarea-short" data-maxsize="200"  rows="4" data-output="status1" wrap="virtual" placeholder="Maximum 200 characters"></textarea>
-                            <div id="status1" class="right" style="margin-right: 20px;"></div>
+                            <div id="status1" class="small"></div>
                     </div>
                     <!-- End Field -->
 
+
+                  <h2 class="ui dividing header">Product Information</h2>
+
                     <!-- Field -->
                     <div class="inline field">
-                        <label class="redactor">Product Information</label>
+                        <label class="redactor">Overview</label>
                         <textarea id="redactor2" name="content" placeholder="Create sections of information to sell your product.  The overview and highlights are required. You may also add details to the other listed sections or create your own sections">
                             </textarea>
                     </div>
@@ -326,8 +302,7 @@
                     </div>
                     <!-- End Field -->
 
-
-<h2 class="ui header">Policies</h2>
+          <h2 class="ui dividing header">Policies</h2>
 
                     <!-- Field -->
                      <div class="inline field">
@@ -372,14 +347,9 @@
 
 </section>
 
-
-
-</div>
+    </div>
 
 <script type="text/javascript"  src="/js/semantic.min.js"></script>
-<script type="text/javascript" src="/js/hammer.min.js"></script>
-<script type="text/javascript" src="/js/mmenu.min.all.js"></script>
-<script type="text/javascript" src="/js/menu.js"></script>
 <script type="text/javascript"  src="/js/tabs.min.js"></script>
 <script type="text/javascript"  src="/js/filedrag.js"></script>
 <script type="text/javascript"  src="/js/redactor.min.js"></script>
@@ -388,13 +358,19 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 	$('.ui.accordion').accordion();
+	$('#open-menu').click(function()
+	{
+	$('.sidebar').sidebar({overlay: false})
+		.sidebar('toggle');
+		});
 	$('.menu .item').tab({history:false});
 	});
-	
+
 	$('#redactor, #redactor2, #redactor3').redactor({
 	air: true
 	});
 </script>
+
 
 </body>
 </html>
