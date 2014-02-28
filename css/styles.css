@@ -1848,8 +1848,13 @@ input:focus, textarea:focus {
 
 .ui.textarea, .ui.form textarea,
 .redactor_box {
-width: 80%;
-display: inline-block;
+  width: 80%;
+  display: inline-block;
+}
+
+.ui.menu .active.item {
+  -webkit-box-shadow: 0em 0em 0em inset;
+  box-shadow: 0em 0em 0em inset;
 }
 
 .dropdown,
@@ -1858,7 +1863,6 @@ display: inline-block;
 }
 
 .ui.form .inline.fields .field > input, .ui.form .inline.field > input {
-
     text-align: left;
 }
 .ui.checkbox label {
@@ -1871,21 +1875,28 @@ display: inline-block;
 }
 
 .ui.item.menu, .ui.item.menu .item {
-    background: #F5F5F5;
+    background: transparent;
 }
 
 .ui.link.menu .item:hover, .ui.menu .item.hover, .ui.menu .link.item:hover, .ui.menu a.item:hover, .ui.menu .ui.dropdown .menu .item.hover, .ui.menu .ui.dropdown .menu .item:hover {
-    background: #FFF;
+    color: #F7941E;
+    background: transparent;
 }
-
 
 .ui.segment, .ui.menu {
     margin:  0;
     border-radius: 0;
 }
-
 .ui.segment {
     box-shadow: none;
+}
+.ui.menu {
+-webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.1)
+}
+
+.ui.menu .item:before {
+background-image: none;
 }
 
 /*File Drag*/
