@@ -1924,14 +1924,14 @@ background-image: none;
     font-weight: bold;
     text-align: center;
     padding: 1em 0;
-    margin: 1em 0;
+    margin: 1em 0 0 150px;
     color: #555;
     border: 2px dashed #CCC;
     border-radius: 7px;
     cursor: default;
     display: inline-block;
-    max-width: 365px;
-    width: 100%;
+    /*max-width: 365px;*/
+    width: 80%;
 }
 #filedrag.hover {
     color: #f00;

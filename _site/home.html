@@ -116,221 +116,249 @@
     <a class="item" data-tab="preview"><i class="fa fa-desktop"></i>Preview</a>
   </div>
 
-  <div class="ui active tab segment" data-tab="details">
-    <h2 class="ui dividing header">Product Details</h2>
-    <div class="ui stackable grid">
-        <div class="twelve wide column">
-            <div class="ui segment">
-                <div class="ui form">
-                    <!-- Field -->
-                    <div class=" inline field">
-                        <label>Product Name</label>
-                        <input placeholder="Product Name" name="product-name" type="text">
-                    </div>
-                    <!-- End Field -->
+  <div class="ui active tab segment" data-tab="details"><h2 class="ui dividing header">Product Details</h2>
+<div class="ui stackable grid" ng-app ng-controller="HelpController">
+<div class="twelve wide column">
+    <div class="ui segment">
+        <div class="ui form">
+            <!-- Field -->
+            <div class=" inline field">
+                <label>Product Name</label>
+                <input placeholder="Product Name" name="product-name" type="text" ng-click="help('productName')" >
+            </div>
+            <!-- End Field -->
 
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label>Product Class</label>
-                        <div class="ui compact menu">
-                            <div class="ui simple dropdown item">
-                                <div class="text">Select One</div>
-                                <i class="dropdown icon"></i>
-                                <div class="menu">
-                                    <div class="item">Group Activity</div>
-                                    <div class="item">Private Activity</div>
-                                    <div class="item">Event</div>
-                                    <div class="item">Retail</div>
-                                    <div class="item">Ticket</div>
-                                    <div class="item">Rental</div>
-                                    <div class="item">Lodging</div>
-                                    <div class="item">Lesson or Class</div>
-                                </div>
-                            </div>
+            <!-- Field -->
+            <div class="inline field">
+                <label>Product Class</label>
+
+                <div class="ui compact menu" ng-click="help('productClass')">
+                    <div class="ui simple dropdown item">
+                        <div class="text">Select One</div>
+                        <i class="dropdown icon"></i>
+
+                        <div class="menu">
+                            <div class="item">Group Activity</div>
+                            <div class="item">Private Activity</div>
+                            <div class="item">Event</div>
+                            <div class="item">Retail</div>
+                            <div class="item">Ticket</div>
+                            <div class="item">Rental</div>
+                            <div class="item">Lodging</div>
+                            <div class="item">Lesson or Class</div>
                         </div>
                     </div>
-                    <!-- End Field -->
-
-                    <!-- Field -->
-                    <div class=" inline field">
-                        <label>Product Type</label>
-                        <div class="ui compact menu">
-                            <div class="ui simple dropdown item">
-                                <div class="text">Select One</div>
-                                <i class="dropdown icon"></i>
-                                <div class="menu">
-                                    <div class="item">Group or Private Activity</div>
-                                    <div class="item">Event</div>
-                                    <div class="item">Retail</div>
-                                    <div class="item">Rental</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Field -->
-
-
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label>Product Locations</label>
-                        <input placeholder="Example: San Diego, California" name="primary-location" type="text">
-                        <p><a href="" class="small">+ Add Location</a>
-                        </p>
-                    </div>
-                    <!-- End Field -->
-
-
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label class="redactor">Short Description</label>
-                            <textarea  id="textarea-short" data-maxsize="200"  rows="4" data-output="status1" wrap="virtual" placeholder="Maximum 200 characters"></textarea>
-                            <div id="status1" class="small"></div>
-                    </div>
-                    <!-- End Field -->
-
-
-                  <h2 class="ui dividing header">Product Information</h2>
-
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label class="redactor">Overview</label>
-                        <textarea id="redactor2" name="content" placeholder="Create sections of information to sell your product.  The overview and highlights are required. You may also add details to the other listed sections or create your own sections">
-                            </textarea>
-                    </div>
-                    <!-- End Field -->
-
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label class="redactor">Highlights</label>
-                          <textarea id="redactor3" name="content" placeholder="Include a short, bullet list of the most attractive aspects of this product">
-                          </textarea>
-                    </div>
-                    <!-- End Field -->
-
-                  <!-- Field -->
-                  <div class="inline field">
-                      <label class="redactor">Itinerary</label>
-                        <textarea id="redactor3" name="content" placeholder="Provide a more in-depth look at the different sections, days or primary elements of this product">
-                        </textarea>
-                  </div>
-                  <!-- End Field -->
-
-                  <!-- Field -->
-                  <div class="inline field">
-                      <label class="redactor">What to Bring</label>
-                        <textarea id="redactor3" name="content" placeholder="A list that details what each participant should wear or bring">
-                        </textarea>
-                  </div>
-                  <!-- End Field -->
-
-                  <!-- Field -->
-                  <div class="inline field">
-                      <label class="redactor">FAQ</label>
-                        <textarea id="redactor3" name="content" placeholder="Some of the most common questions along with the corresponding answer">
-                        </textarea>
-                  </div>
-                  <!-- End Field -->
-
-                  <!-- Field -->
-                  <div class="inline field">
-                      <label class="redactor">Rules</label>
-                        <textarea id="redactor3" name="content" placeholder="List any rules or limitations to participation or purchase of this product">
-                        </textarea>
-                  </div>
-                  <!-- End Field -->
-
-                  <!-- Field -->
-                  <div class="inline field">
-                      <label class="redactor">Additional Information</label>
-                        <textarea id="redactor3" name="content" placeholder="Any other details which have not been addressed in any of the provided sections">
-                        </textarea>
-                  </div>
-                  <!-- End Field -->
-
-
-                  <!-- Field -->
-                  <div class="inline field">
-                      <label class="redactor">Includes</label>
-                        <textarea id="redactor3" name="content" placeholder="A bullet list of the services or items included with this product.">
-                        </textarea>
-                  </div>
-                  <!-- End Field -->
-
-                  <!-- Field -->
-                  <div class="inline field">
-                      <label class="redactor">Excludes</label>
-                        <textarea id="redactor3" name="content" placeholder="A bullet list of the services or items not included with this product">
-                        </textarea>
-                  </div>
-                  <!-- End Field -->
-
-                  <!-- Field -->
-                  <div class="inline field">
-                      <label>Videos</label>
-                                   <div class="ui compact menu">
-                          <div class="ui simple dropdown item">
-                              <div class="text">Video Source</div>
-                              <i class="dropdown icon"></i>
-                              <div class="menu">
-                                  <div class="item">YouTube</div>
-                                  <div class="item">Vimeo</div>
-                              </div>
-                          </div>
-                      </div>
-                      <input placeholder="Video URL" name="insert-product-name" type="text">
-
-                      <p><a href=" " class="small">+ Add another</a>
-                      </p>
-                  </div>
-                  <!-- End Field -->
-
-                    <!-- Field -->
-                    <div class="inline field">
-                        <label>Images</label>
-                        <fieldset>
-                            <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000">
-                            <div>
-                                <label for="fileselect">Files to upload:</label>
-                                <input type="file" id="fileselect" name="fileselect[]" multiple="multiple">
-                                <div id="filedrag" style="display: block;">or drop files here</div>
-                            </div>
-                            <div id="submitbutton" style="display: none;">
-                                <button type="submit">Upload Files</button>
-                            </div>
-                        </fieldset>
-
-                    </div>
-                    <!-- End Field -->
-
-          <h2 class="ui dividing header">Policies</h2>
-
-                    <!-- Field -->
-                     <div class="inline field">
-                    <a class="ui green button right">Save &amp; next</a>
-                </div>
-                    <!-- End Field -->
-
                 </div>
             </div>
-            <!-- End Column -->
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class=" inline field">
+                <label>Product Type</label>
+
+                <div class="ui compact menu" ng-click="help('productType')">
+                    <div class="ui simple dropdown item">
+                        <div class="text">Select One</div>
+                        <i class="dropdown icon"></i>
+
+                        <div class="menu">
+                            <div class="item">Group or Private Activity</div>
+                            <div class="item">Event</div>
+                            <div class="item">Retail</div>
+                            <div class="item">Rental</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Field -->
+
+
+            <!-- Field -->
+            <div class="inline field">
+                <label>Product Locations</label>
+                <input placeholder="Example: San Diego, California" name="primary-location" type="text" ng-click="help('productLocation')">
+
+                <p><a href="" class="small">+ Add Location</a>
+                </p>
+            </div>
+            <!-- End Field -->
+
+
+            <!-- Field -->
+            <div class="inline field">
+                <label class="redactor">Short Description</label>
+                <textarea id="textarea-short" data-maxsize="200" rows="4" data-output="status1" wrap="virtual" placeholder="Maximum 200 characters" ng-click="help('shortDescription')"></textarea>
+
+                <div id="status1" class="small"></div>
+            </div>
+            <!-- End Field -->
+
+
+            <h2 class="ui dividing header">Product Information</h2>
+
+            <!-- Field -->
+            <div class="inline field" ng-click="help('overview')">
+                <label class="redactor">Overview</label>
+                <textarea id="redactor2" name="content"
+                          placeholder="Create sections of information to sell your product.  The overview and highlights are required. You may also add details to the other listed sections or create your own sections">
+                </textarea>
+            </div>
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class="inline field" ng-click="help('highlights')">
+                <label class="redactor">Highlights</label>
+                <textarea id="redactor3" name="content" placeholder="Include a short, bullet list of the most attractive aspects of this product" >
+                </textarea>
+            </div>
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class="inline field" ng-click="help('itinerary')">
+                <label class="redactor">Itinerary</label>
+                <textarea id="redactor3" name="content" placeholder="Provide a more in-depth look at the different sections, days or primary elements of this product" >
+                </textarea>
+            </div>
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class="inline field" ng-click="help('whatToBring')" >
+                <label class="redactor">What to Bring</label>
+                <textarea id="redactor3" name="content" placeholder="A list that details what each participant should wear or bring" >
+                </textarea>
+            </div>
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class="inline field">
+                <label class="redactor">FAQ</label>
+                <textarea id="redactor3" name="content" placeholder="Some of the most common questions along with the corresponding answer">
+                </textarea>
+            </div>
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class="inline field">
+                <label class="redactor">Rules</label>
+                <textarea id="redactor3" name="content" placeholder="List any rules or limitations to participation or purchase of this product">
+                </textarea>
+            </div>
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class="inline field">
+                <label class="redactor">Additional <br/>Information</label>
+                <textarea id="redactor3" name="content" placeholder="Any other details which have not been addressed in any of the provided sections">
+                </textarea>
+            </div>
+            <!-- End Field -->
+
+
+            <!-- Field -->
+            <div class="inline field">
+                <label class="redactor">Includes</label>
+                <textarea id="redactor3" name="content" placeholder="A bullet list of the services or items included with this product.">
+                </textarea>
+            </div>
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class="inline field">
+                <label class="redactor">Excludes</label>
+                <textarea id="redactor3" name="content" placeholder="A bullet list of the services or items not included with this product">
+                </textarea>
+            </div>
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class="inline field">
+                <label>Videos</label>
+
+                <div class="ui compact menu">
+                    <div class="ui simple dropdown item">
+                        <div class="text">Video Source</div>
+                        <i class="dropdown icon"></i>
+
+                        <div class="menu">
+                            <div class="item">YouTube</div>
+                            <div class="item">Vimeo</div>
+                        </div>
+                    </div>
+                </div>
+                <input placeholder="Video URL" name="insert-product-name" type="text">
+
+                <p><a href=" " class="small">+ Add another</a>
+                </p>
+            </div>
+            <!-- End Field -->
+
+            <!-- Field -->
+            <div class="inline field">
+                    <label for="fileselect">Images</label>
+                    <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000">
+
+                        <input type="file" id="fileselect" name="fileselect[]" multiple="multiple">
+
+                        <div id="filedrag" style="display: block;">or drop files here</div>
+                    <div id="submitbutton" style="display: none;">
+                        <button type="submit">Upload Files</button>
+                    </div>
+
+            </div>
+            <!-- End Field -->
+
+            <!--<h2 class="ui dividing header">Policies</h2>-->
+
+            <!-- Field -->
+            <div class="inline field">
+                <a class="ui green button right">Save &amp; next</a>
+            </div>
+            <!-- End Field -->
+
         </div>
+    </div>
+    <!-- End Column -->
+</div>
 
-<div class="four wide column help">
-<h2 class="fa fa-question-circle"> Help title</h2>
-  <p><strong>Description</strong><br />
+<div class="four wide column help" >
+    <h2 class="fa fa-question-circle"> {{title}}</h2>
+    <p><strong>Description</strong><br />
 
 
-<p><strong>Apply to this product only</strong><br />This policy will be available to apply to other products, but will need to be applied manually to each product.</p>
-<p><strong>Apply to all existing products</strong><br />Upon saving, this policy will be applied to all existing products.  It can always be removed from any individual product.</p>
-<p><strong>Apply to all new products</strong><br />This policy will be automatically applied to each new product you create.  It can always be removed from any individual product.</p>
-<p><strong>Apply to all new and existing products</strong><br />Upon saving, this policy will be applied to all existing products. It will also be automatically applied to each new product you create. It can always be removed from any individual product.</p>
-
+    <p ng-model="description"> {{description}}</p>
 
 
 </div>
-        <!-- End Grid -->
-        </div>
+<!-- End Grid -->
 </div>
+<script>
+//    $(function(){
+
+    helpItems = {};
+    helpItems.productName = {title: 'Product Name', description: 'Enter the name of this product as it will appear online (see sample page) and on confirmations or receipts. To view how your product details are taking shape online, select “preview” at the top of the page.'};
+helpItems.productClass = {title: 'Product Class', description: 'The product class will help create categories of products for you to search and report internally. Product classes will also allow other users to find your products in the Resmark community. '};
+helpItems.productType = {title: 'Product Type', description: 'Each class of products has specific types available. These types can be used both internally by Resmark users and online by your customers to find products.  If you don’t find an applicable type for your product, select “custom” and enter your own type.  This will be reviewed by Resmark and possibly approved into the master list for use by others.'};
+helpItems.productLocation = {title: 'Product Location', description: 'Enter a city or landmark to select the location of this product. If previous locations have been entered for other products which are the same for this product, please select them from the menu. If this product spans multiple locations, select “Add Location” to apply more than one location to the product. Product location will be used for searching available products internally and by your online customers.'};
+helpItems.shortDescription = {title: 'Short Description', description: 'Create a short (25 to 200 character) description of your product that will be used in brief product listings.  HTML or rich text is not allowed in this description.'};
+helpItems.overview = {title: 'Overview', description: 'A paragraph or two (up to 1000 characters) that provides a summary of what to expect.'};
+helpItems.highlights = {title: 'Highlights', description: 'Include a short, bullet list of the most attractive aspects of this product.'};
+helpItems.itinerary = {title: 'Itinerary', description: 'Provide a more in-depth look at the different sections, days or primary elements of this product.'};
+helpItems.whatToBring = {title: 'What To Bring', description: 'A list that details what each participant should wear or bring.'};
+
+        function HelpController($scope){
+
+            $scope.title = '';
+            $scope.description = '';
+
+            $scope.help = function(id){
+                $scope.title = helpItems[id].title;
+                $scope.description = helpItems[id].description;
+            }
+
+
+        }
+//    });
+</script></div>
   <div class="ui tab segment" data-tab="pricing">        <p>Pricing It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.</p>
             <p>Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.</p>
             <p>The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...</p>
@@ -354,6 +382,8 @@
 <script type="text/javascript"  src="/js/filedrag.js"></script>
 <script type="text/javascript"  src="/js/redactor.min.js"></script>
 <script type="text/javascript"  src="/js/maxlength.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.0rc3/angular-sanitize.min.js"></script>
 
 <script type="text/javascript">
 	$(document).ready(function(){
