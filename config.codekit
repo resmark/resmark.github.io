@@ -1,0 +1,1903 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "16828",
+"files": {
+	"\/_includes\/all.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/all.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/analytics.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/analytics.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/footer.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/footer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/header.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/header.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/menu-left.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/menu-left.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/menu-right.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/menu-right.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/product-setup\/step1-details.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/product-setup\/step1-details.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/product-setup\/step2-pricing.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/product-setup\/step2-pricing.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/product-setup\/step3-schedule.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/product-setup\/step3-schedule.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/product-setup\/step4-fields.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/product-setup\/step4-fields.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/product-setup\/step5-preview.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/product-setup\/step5-preview.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/temp-help.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/temp-help.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_layouts\/default-help.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/default-help.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_layouts\/default.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/default.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2014\/01\/02\/this-is-how-a-post-works.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2014\/01\/02\/this-is-how-a-post-works.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2014\/01\/09\/cmas-first-post.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2014\/01\/09\/cmas-first-post.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/BAK.HTML": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/BAK.HTML",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/animations.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/animations.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/demo.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/demo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/ie.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/ie.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/jquery.mmenu.all.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/jquery.mmenu.all.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/jquery.mmenu.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/jquery.mmenu.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/redactor.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/redactor.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/semantic.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/semantic.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/home.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/home.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/img\/logo-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37583,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-big.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-big.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14135,
+		"inputAbbreviatedPath": "\/_site\/img\/logo.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/resmark-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36340,
+		"inputAbbreviatedPath": "\/_site\/img\/resmark-hero.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/resmark-hero.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/js\/autofix.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/autofix.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/autofix.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/backstretch.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/backstretch.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/backstretch.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/filedrag.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/filedrag.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/filedrag-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/fitvid.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/fitvid.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/fitvid-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/forms.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/forms.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/forms-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/hammer.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/hammer.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/hammer.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/html5shiv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/html5shiv.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/html5shiv-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/maxlength.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/maxlength.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/maxlength-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/modernizer.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/modernizer.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/modernizer.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/redactor.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/redactor.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/redactor.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/respond.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/respond.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/selectivizr-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/selectivizr-min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/selectivizr-min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/semantic.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/semantic.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/semantic.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/tableSort.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/tableSort.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/tableSort.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/tabs.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/tabs.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/tabs.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/textAngular.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/textAngular.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/textAngular.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/plugins\/FlexNav\/css\/flexnav.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/flexnav.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/plugins\/FlexNav\/css\/font-awesome.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/font-awesome.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/plugins\/FlexNav\/css\/page.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/page.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/plugins\/FlexNav\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/min\/Gruntfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/plugins\/FlexNav\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/plugins\/FlexNav\/js\/jquery.flexnav.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/js\/jquery.flexnav.js",
+		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/js\/min\/jquery.flexnav-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/plugins\/FlexNav\/js\/jquery.flexnav.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/js\/jquery.flexnav.min.js",
+		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/js\/min\/jquery.flexnav.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/plugins\/FlexNav\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/README.md",
+		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/plugins\/FlexNav\/sass\/flexnav.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/sass\/flexnav.scss",
+		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/flexnav.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_site\/plugins\/FlexNav\/sass\/page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/sass\/page.scss",
+		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/page.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_site\/plugins\/FlexNav\/single-page-pattern.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/single-page-pattern.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/img\/bg-noise.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24533,
+		"inputAbbreviatedPath": "\/_site\/projects\/img\/bg-noise.png",
+		"outputAbbreviatedPath": "\/_site\/projects\/img\/bg-noise.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15599,
+		"inputAbbreviatedPath": "\/_site\/projects\/img\/logo.png",
+		"outputAbbreviatedPath": "\/_site\/projects\/img\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/mad-river\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/mad-river\/docs\/Comp6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.91195e+06,
+		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Comp6.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Comp6.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/mad-river\/docs\/Comp6B.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.92455e+06,
+		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Comp6B.jpg",
+		"outputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Comp6B.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/mad-river\/docs\/Style-Guide.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 634752,
+		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Style-Guide.png",
+		"outputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Style-Guide.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/projects\/mad-river\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/mad-river\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/README.md",
+		"outputAbbreviatedPath": "\/_site\/projects\/mad-river\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/world-wide\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/world-wide\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/world-wide\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/world-wide\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/projects\/world-wide\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/projects\/world-wide\/README.md",
+		"outputAbbreviatedPath": "\/_site\/projects\/world-wide\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/README.md",
+		"outputAbbreviatedPath": "\/_site\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/BAK.HTML": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/BAK.HTML",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/animations.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/animations.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/demo.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/demo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/ie.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/ie.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/redactor.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/redactor.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/semantic.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/semantic.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/home.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/home.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/logo-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37583,
+		"inputAbbreviatedPath": "\/img\/logo-big.png",
+		"outputAbbreviatedPath": "\/img\/logo-big.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14135,
+		"inputAbbreviatedPath": "\/img\/logo.png",
+		"outputAbbreviatedPath": "\/img\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/resmark-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36340,
+		"inputAbbreviatedPath": "\/img\/resmark-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/resmark-hero.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/autofix.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/autofix.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/autofix.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/backstretch.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/backstretch.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/backstretch.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/filedrag.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/filedrag.js",
+		"outputAbbreviatedPath": "\/js\/min\/filedrag-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/fitvid.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/fitvid.js",
+		"outputAbbreviatedPath": "\/js\/min\/fitvid-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/forms.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/forms.js",
+		"outputAbbreviatedPath": "\/js\/min\/forms-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/hammer.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/hammer.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/hammer.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/html5shiv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/html5shiv.js",
+		"outputAbbreviatedPath": "\/js\/min\/html5shiv-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/maxlength.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/maxlength.js",
+		"outputAbbreviatedPath": "\/js\/min\/maxlength-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modernizer.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modernizer.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/modernizer.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/redactor.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/redactor.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/redactor.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/respond.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/respond.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/selectivizr-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/selectivizr-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/selectivizr-min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/semantic.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/semantic.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/semantic.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/tableSort.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/tableSort.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/tableSort.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/tabs.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/tabs.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/tabs.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/textAngular.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/textAngular.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/textAngular.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/FlexNav\/css\/flexnav.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/css\/flexnav.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/FlexNav\/css\/font-awesome.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/css\/font-awesome.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/FlexNav\/css\/page.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/css\/page.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/FlexNav\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/plugins\/FlexNav\/min\/Gruntfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/FlexNav\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/FlexNav\/js\/jquery.flexnav.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/js\/jquery.flexnav.js",
+		"outputAbbreviatedPath": "\/plugins\/FlexNav\/js\/min\/jquery.flexnav-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/FlexNav\/js\/jquery.flexnav.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/js\/jquery.flexnav.min.js",
+		"outputAbbreviatedPath": "\/plugins\/FlexNav\/js\/min\/jquery.flexnav.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/FlexNav\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/README.md",
+		"outputAbbreviatedPath": "\/plugins\/FlexNav\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/FlexNav\/sass\/flexnav.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/sass\/flexnav.scss",
+		"outputAbbreviatedPath": "\/plugins\/FlexNav\/css\/flexnav.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/FlexNav\/sass\/page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/sass\/page.scss",
+		"outputAbbreviatedPath": "\/plugins\/FlexNav\/css\/page.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/FlexNav\/single-page-pattern.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/FlexNav\/single-page-pattern.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/projects\/img\/bg-noise.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24533,
+		"inputAbbreviatedPath": "\/projects\/img\/bg-noise.png",
+		"outputAbbreviatedPath": "\/projects\/img\/bg-noise.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15599,
+		"inputAbbreviatedPath": "\/projects\/img\/logo.png",
+		"outputAbbreviatedPath": "\/projects\/img\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/mad-river\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/mad-river\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/projects\/mad-river\/docs\/Comp6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.91195e+06,
+		"inputAbbreviatedPath": "\/projects\/mad-river\/docs\/Comp6.jpg",
+		"outputAbbreviatedPath": "\/projects\/mad-river\/docs\/Comp6.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/mad-river\/docs\/Comp6B.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.92455e+06,
+		"inputAbbreviatedPath": "\/projects\/mad-river\/docs\/Comp6B.jpg",
+		"outputAbbreviatedPath": "\/projects\/mad-river\/docs\/Comp6B.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/mad-river\/docs\/Style-Guide.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 634752,
+		"inputAbbreviatedPath": "\/projects\/mad-river\/docs\/Style-Guide.png",
+		"outputAbbreviatedPath": "\/projects\/mad-river\/docs\/Style-Guide.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/mad-river\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/mad-river\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/projects\/mad-river\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/mad-river\/README.md",
+		"outputAbbreviatedPath": "\/projects\/mad-river\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/projects\/world-wide\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/world-wide\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/projects\/world-wide\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/world-wide\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/projects\/world-wide\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/world-wide\/README.md",
+		"outputAbbreviatedPath": "\/projects\/world-wide\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsSetByUser": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Chad Allen",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "resmark.github.io",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "globe_darkGray"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no-unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptOutputSuffix": "-ck",
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"gcl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onevar": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"smarttabs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"trailing": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 5,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptNoResolve": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}
