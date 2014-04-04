@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16877",
+"creatorBuild": "16895",
 "files": {
 	"\/_includes\/all.html": {
 		"fileType": 8192,
@@ -8,6 +8,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/all.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/analytics.html": {
@@ -16,6 +17,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/analytics.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/footer.html": {
@@ -24,6 +26,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/footer.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/header.html": {
@@ -32,6 +35,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/header.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/menu-left.html": {
@@ -40,6 +44,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/menu-left.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/menu-right.html": {
@@ -48,6 +53,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/menu-right.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/product-setup\/step1-details.html": {
@@ -56,6 +62,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/product-setup\/step1-details.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/product-setup\/step2-pricing.html": {
@@ -64,6 +71,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/product-setup\/step2-pricing.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/product-setup\/step3-schedule.html": {
@@ -72,6 +80,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/product-setup\/step3-schedule.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/product-setup\/step4-fields.html": {
@@ -80,6 +89,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/product-setup\/step4-fields.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/product-setup\/step5-preview.html": {
@@ -88,6 +98,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/product-setup\/step5-preview.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/temp-help.html": {
@@ -96,6 +107,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/temp-help.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_layouts\/default-help.html": {
@@ -104,6 +116,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_layouts\/default-help.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_layouts\/default.html": {
@@ -112,6 +125,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_layouts\/default.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/2014\/01\/02\/this-is-how-a-post-works.html": {
@@ -120,6 +134,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/2014\/01\/02\/this-is-how-a-post-works.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/2014\/01\/09\/cmas-first-post.html": {
@@ -128,6 +143,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/2014\/01\/09\/cmas-first-post.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/BAK.HTML": {
@@ -136,6 +152,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/BAK.HTML",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/animations.css": {
@@ -144,6 +161,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/animations.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/demo.css": {
@@ -152,6 +170,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/demo.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/ie.css": {
@@ -160,6 +179,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/ie.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/jquery.mmenu.all.css": {
@@ -168,6 +188,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/jquery.mmenu.all.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/jquery.mmenu.css": {
@@ -176,6 +197,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/jquery.mmenu.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/redactor.css": {
@@ -184,6 +206,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/redactor.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/semantic.css": {
@@ -192,6 +215,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/semantic.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/styles.css": {
@@ -200,6 +224,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/styles.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/home.html": {
@@ -208,6 +233,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/home.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/img\/logo-big.png": {
@@ -217,6 +243,7 @@
 		"initialSize": 37583,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-big.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-big.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -227,6 +254,7 @@
 		"initialSize": 14135,
 		"inputAbbreviatedPath": "\/_site\/img\/logo.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -237,6 +265,7 @@
 		"initialSize": 36340,
 		"inputAbbreviatedPath": "\/_site\/img\/resmark-hero.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/resmark-hero.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -246,6 +275,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/js\/autofix.min.js": {
@@ -254,6 +284,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/autofix.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/autofix.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -264,6 +295,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/backstretch.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/backstretch.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -274,6 +306,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/filedrag.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/filedrag-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -284,6 +317,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/fitvid.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/fitvid-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -294,6 +328,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/forms.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/forms-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -304,6 +339,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/hammer.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/hammer.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -314,6 +350,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/html5shiv.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/html5shiv-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -324,6 +361,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/maxlength.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/maxlength-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -334,6 +372,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/modernizer.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/modernizer.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -344,6 +383,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/redactor.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/redactor.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -354,6 +394,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/respond.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/respond.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -364,6 +405,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/selectivizr-min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/selectivizr-min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -374,6 +416,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/semantic.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/semantic.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -384,6 +427,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/tableSort.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/tableSort.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -394,6 +438,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/tabs.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/tabs.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -404,6 +449,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/textAngular.min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/textAngular.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -416,6 +462,7 @@
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.coffee",
 		"minifyOutput": 1,
 		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
@@ -426,6 +473,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/flexnav.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/plugins\/FlexNav\/css\/font-awesome.css": {
@@ -434,6 +482,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/font-awesome.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/plugins\/FlexNav\/css\/page.css": {
@@ -442,6 +491,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/page.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/plugins\/FlexNav\/Gruntfile.js": {
@@ -450,6 +500,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/Gruntfile.js",
 		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/min\/Gruntfile-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -460,6 +511,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/plugins\/FlexNav\/js\/jquery.flexnav.js": {
@@ -468,6 +520,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/js\/jquery.flexnav.js",
 		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/js\/min\/jquery.flexnav-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -478,6 +531,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/js\/jquery.flexnav.min.js",
 		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/js\/min\/jquery.flexnav.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -491,6 +545,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/README.md",
 		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/plugins\/FlexNav\/sass\/flexnav.scss": {
@@ -502,6 +557,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/sass\/flexnav.scss",
 		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/flexnav.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -517,6 +573,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/sass\/page.scss",
 		"outputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/css\/page.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -529,6 +586,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/plugins\/FlexNav\/single-page-pattern.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/projects\/img\/bg-noise.png": {
@@ -538,6 +596,7 @@
 		"initialSize": 24533,
 		"inputAbbreviatedPath": "\/_site\/projects\/img\/bg-noise.png",
 		"outputAbbreviatedPath": "\/_site\/projects\/img\/bg-noise.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -548,6 +607,7 @@
 		"initialSize": 15599,
 		"inputAbbreviatedPath": "\/_site\/projects\/img\/logo.png",
 		"outputAbbreviatedPath": "\/_site\/projects\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -557,6 +617,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/projects\/mad-river\/docs\/Comp6.jpg": {
@@ -566,6 +627,7 @@
 		"initialSize": 1.91195e+06,
 		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Comp6.jpg",
 		"outputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Comp6.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -576,6 +638,7 @@
 		"initialSize": 1.92455e+06,
 		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Comp6B.jpg",
 		"outputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Comp6B.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -586,6 +649,7 @@
 		"initialSize": 634752,
 		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Style-Guide.png",
 		"outputAbbreviatedPath": "\/_site\/projects\/mad-river\/docs\/Style-Guide.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -595,6 +659,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/projects\/mad-river\/README.md": {
@@ -606,6 +671,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/projects\/mad-river\/README.md",
 		"outputAbbreviatedPath": "\/_site\/projects\/mad-river\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/projects\/world-wide\/css\/style.css": {
@@ -614,6 +680,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/projects\/world-wide\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/projects\/world-wide\/index.html": {
@@ -622,6 +689,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/projects\/world-wide\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/projects\/world-wide\/README.md": {
@@ -633,6 +701,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/projects\/world-wide\/README.md",
 		"outputAbbreviatedPath": "\/_site\/projects\/world-wide\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/README.md": {
@@ -644,6 +713,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/README.md",
 		"outputAbbreviatedPath": "\/_site\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/BAK.HTML": {
@@ -652,6 +722,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/BAK.HTML",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/animations.css": {
@@ -660,6 +731,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/animations.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/demo.css": {
@@ -668,6 +740,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/demo.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/ie.css": {
@@ -676,6 +749,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/ie.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/redactor.css": {
@@ -684,6 +758,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/redactor.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/semantic.css": {
@@ -692,6 +767,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/semantic.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/styles.css": {
@@ -700,6 +776,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/styles.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/home.html": {
@@ -708,6 +785,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/home.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/img\/logo-big.png": {
@@ -717,6 +795,7 @@
 		"initialSize": 37583,
 		"inputAbbreviatedPath": "\/img\/logo-big.png",
 		"outputAbbreviatedPath": "\/img\/logo-big.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -727,6 +806,7 @@
 		"initialSize": 14135,
 		"inputAbbreviatedPath": "\/img\/logo.png",
 		"outputAbbreviatedPath": "\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -737,6 +817,7 @@
 		"initialSize": 36340,
 		"inputAbbreviatedPath": "\/img\/resmark-hero.jpg",
 		"outputAbbreviatedPath": "\/img\/resmark-hero.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -746,6 +827,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/js\/autofix.min.js": {
@@ -754,6 +836,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/autofix.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/autofix.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -764,6 +847,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/backstretch.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/backstretch.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -774,6 +858,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/filedrag.js",
 		"outputAbbreviatedPath": "\/js\/min\/filedrag-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -784,6 +869,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/fitvid.js",
 		"outputAbbreviatedPath": "\/js\/min\/fitvid-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -794,6 +880,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/forms.js",
 		"outputAbbreviatedPath": "\/js\/min\/forms-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -804,6 +891,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/hammer.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/hammer.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -814,6 +902,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/html5shiv.js",
 		"outputAbbreviatedPath": "\/js\/min\/html5shiv-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -824,6 +913,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/maxlength.js",
 		"outputAbbreviatedPath": "\/js\/min\/maxlength-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -834,6 +924,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/modernizer.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/modernizer.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -844,6 +935,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/redactor.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/redactor.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -854,6 +946,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/respond.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/respond.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -864,6 +957,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/selectivizr-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/selectivizr-min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -874,6 +968,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/semantic.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/semantic.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -884,6 +979,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/tableSort.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/tableSort.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -894,6 +990,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/tabs.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/tabs.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -904,6 +1001,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/textAngular.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/textAngular.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -916,6 +1014,7 @@
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.coffee",
 		"minifyOutput": 1,
 		"outputAbbreviatedPath": "\/plugins\/FlexNav\/coffeescripts\/jquery.flexnav.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
@@ -926,6 +1025,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/css\/flexnav.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/plugins\/FlexNav\/css\/font-awesome.css": {
@@ -934,6 +1034,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/css\/font-awesome.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/plugins\/FlexNav\/css\/page.css": {
@@ -942,6 +1043,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/css\/page.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/plugins\/FlexNav\/Gruntfile.js": {
@@ -950,6 +1052,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/Gruntfile.js",
 		"outputAbbreviatedPath": "\/plugins\/FlexNav\/min\/Gruntfile-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -960,6 +1063,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/plugins\/FlexNav\/js\/jquery.flexnav.js": {
@@ -968,6 +1072,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/js\/jquery.flexnav.js",
 		"outputAbbreviatedPath": "\/plugins\/FlexNav\/js\/min\/jquery.flexnav-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -978,6 +1083,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/js\/jquery.flexnav.min.js",
 		"outputAbbreviatedPath": "\/plugins\/FlexNav\/js\/min\/jquery.flexnav.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -991,6 +1097,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/README.md",
 		"outputAbbreviatedPath": "\/plugins\/FlexNav\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/plugins\/FlexNav\/sass\/flexnav.scss": {
@@ -1002,6 +1109,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/sass\/flexnav.scss",
 		"outputAbbreviatedPath": "\/plugins\/FlexNav\/css\/flexnav.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -1017,6 +1125,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/sass\/page.scss",
 		"outputAbbreviatedPath": "\/plugins\/FlexNav\/css\/page.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -1029,6 +1138,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/FlexNav\/single-page-pattern.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/projects\/img\/bg-noise.png": {
@@ -1038,6 +1148,7 @@
 		"initialSize": 24533,
 		"inputAbbreviatedPath": "\/projects\/img\/bg-noise.png",
 		"outputAbbreviatedPath": "\/projects\/img\/bg-noise.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1048,6 +1159,7 @@
 		"initialSize": 15599,
 		"inputAbbreviatedPath": "\/projects\/img\/logo.png",
 		"outputAbbreviatedPath": "\/projects\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1057,6 +1169,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/projects\/mad-river\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/projects\/mad-river\/docs\/Comp6.jpg": {
@@ -1066,6 +1179,7 @@
 		"initialSize": 1.91195e+06,
 		"inputAbbreviatedPath": "\/projects\/mad-river\/docs\/Comp6.jpg",
 		"outputAbbreviatedPath": "\/projects\/mad-river\/docs\/Comp6.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1076,6 +1190,7 @@
 		"initialSize": 1.92455e+06,
 		"inputAbbreviatedPath": "\/projects\/mad-river\/docs\/Comp6B.jpg",
 		"outputAbbreviatedPath": "\/projects\/mad-river\/docs\/Comp6B.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1086,6 +1201,7 @@
 		"initialSize": 634752,
 		"inputAbbreviatedPath": "\/projects\/mad-river\/docs\/Style-Guide.png",
 		"outputAbbreviatedPath": "\/projects\/mad-river\/docs\/Style-Guide.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1095,6 +1211,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/projects\/mad-river\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/projects\/mad-river\/README.md": {
@@ -1106,6 +1223,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/projects\/mad-river\/README.md",
 		"outputAbbreviatedPath": "\/projects\/mad-river\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/projects\/world-wide\/css\/style.css": {
@@ -1114,6 +1232,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/projects\/world-wide\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/projects\/world-wide\/index.html": {
@@ -1122,6 +1241,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/projects\/world-wide\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/projects\/world-wide\/README.md": {
@@ -1133,6 +1253,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/projects\/world-wide\/README.md",
 		"outputAbbreviatedPath": "\/projects\/world-wide\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
@@ -1144,6 +1265,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}
 	},
