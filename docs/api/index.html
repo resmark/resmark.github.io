@@ -1,1 +1,130 @@
-This will be the docs page for Resmark's public API.
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>@import url('css/index.css');</style>
+    <title>Resmark's Public API Documentation</title>
+
+  </head>
+  <body>
+    <div id="page">
+
+      <!-- PRODUCT ENPOINTS -->
+      <a name="product">
+      <div class="section">
+        <h2>Product Endpoints</h2>
+
+        <!-- GET /product -->
+        <div class="endpoint">
+          <div class="header">
+            <div class="http-method get">GET</div>
+            <span class="uri">/product</span>
+          </div>
+          <div class="content">
+            <p class="description">
+              Returns list of product document subsets, including, at least,
+              the product id and name. These could be used to display thumbnail
+              information about a business' products or to operate on a
+              specific product using the provided id.
+            </p>
+            <h3>Query Params</h3>
+            <div class="subcontent">
+              <table>
+                <tr>
+                  <td>
+                    <span class="technical">
+                      ?full
+                    </span>
+                  </td>
+                  <td>
+                    - Flag. Returns full product documents.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="technical">
+                      ?limit={<span class="number">number</span>}
+                    </span>
+                  </td>
+                  <td>
+                    - Limits the result count.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="technical">
+                      ?ids={<span class="csv">csv</span>:<span class="string">string</span>}
+                    </span>
+                  </td>
+                  <td>
+                    - Comma delimited product ids. Returns list of products according
+                    to supplied ids.
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <h3>Request Payload</h3>
+            <div class="subcontent">
+              N/A
+            </div>
+            <h3>Response Payload</h3>
+            <div class="subcontent">
+
+<span class="technical pre">{
+  "name":<
+}</span>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- GET /product/<id> -->
+        <div class="endpoint">
+          <div class="header">
+            <div class="http-method get">GET</div>
+            <span class="uri">/product/&lt;id&gt;</span>
+          </div>
+          <div class="content">
+            <p class="description">
+              Returns all product information for a particular product.
+            </p>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- CART ENDPOINTS -->
+      <!-- <a name="cart">
+      <div class="section">
+        <h2>Cart Endpoints</h2>
+        <div class="endpoint">
+          <div class="header">
+            <div class="http-method get">GET</div>
+            <span class="uri">/product</span>
+          </div>
+          <div class="content">
+            <p>A bunch of stuff about product endpoints.</p>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+    <script>
+      (function() {
+        var headers = document.getElementsByClassName('header');
+        for (var i = 0, l = headers.length; i < l; i++) {
+          (function() {
+            var header = headers[i];
+            var content = header.nextElementSibling;
+            content.style.display = 'none';
+            header.onclick = function() {
+              content.style.display = content.style.display !== 'none' ? 'none' : 'block';
+            };
+          })();
+        }
+      })();
+    </script>
+  </body>
+</html>
